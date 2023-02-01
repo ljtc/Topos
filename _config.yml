@@ -50,6 +50,8 @@ author:
 menu:
   - title:             Example
     url:               /example/
+  - title:             Tareas
+    url:               /tareas/
   - title:             Documentation
     url:               /docs/
   - title:             About
