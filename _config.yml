@@ -51,7 +51,7 @@ menu:
   - title:             Example
     url:               /example/
   - title:             Tareas
-    url:               /tareas/
+    url:               /tareas/_posts
   - title:             Documentation
     url:               /docs/
   - title:             About
