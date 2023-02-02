@@ -23,3 +23,14 @@ el teorema de Beck
 4. Mónadas
 5. Teorema de Beck
 
+Después de este repaso empezaremos con los temas del curso. Primero presentaremos nuestros objetos de estudio y algunas de sus propiedades. Este material será extraído de *Sheaves in Geometry and Logic* de Mac Lane y Moerdijk.
+
+1. Definición de topos
+2. Construcción de exponenciales
+3. Imagen directa
+4. Construcción de colímites
+5. Factorización e imagen
+6. La rebanada como un topos
+7. Objetos latiz y álgebra de Heyting en un topos
+8. La condición de Beck-Chevalley
+9. Objetos inyectivos
