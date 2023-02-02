@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Install
+title: Adjunciones
 description: >
-  How you install Hydejack depends on whether you start a new site,
-  or change the theme of an existing site.
+  Este es el primer tema importante del curso
 hide_description: true
 sitemap: false
 ---
