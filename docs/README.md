@@ -11,7 +11,7 @@ permalink: /docs/
 En esta sección estarán los vídeos de clases y alguna nota o aclaración de los temas vistos en clases.
 
 
-## Semanas
+## Temas
 En un intento de organizar este material se irá subiendo por temas
 * [Adj]{:.heading.flip-title} --- Adjunciones
 
