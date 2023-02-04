@@ -13,11 +13,10 @@ En esta sección estarán los vídeos de clases y alguna nota o aclaración de l
 
 ## Temas
 En un intento de organizar este material se irá subiendo por temas
-* [Adj]{:.heading.flip-title} --- Adjunciones
+* [Adjunciones]{:.heading.flip-title}
 
 
 
-
-[Adj]: adjunciones.md
+[Adjunciones]: adjunciones.md
 
 
