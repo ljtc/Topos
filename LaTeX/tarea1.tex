@@ -1,5 +1,34 @@
-\documentclass{article}
+\documentclass[article]{memoir}
+\usepackage{defs}
+\usepackage{xsim}
+\usepackage{tasks}
+
+\title{Tarea 1}
+\author{Seminario de Álgebra B}
+\date{}
 
 \begin{document}
-Hola mundo
+\maketitle
+
+\begin{exercise}
+Sean \(\catA\) y \(\catB\) dos categorías y \(F\colon\catA\to\catB\) y \(G\colon\catB\to\catA\) dos funtores. Si 
+\(F\dashv G\), entonces demuestra que la counidad \(\varepsilon\colon FG\to \Id_{\catB}\) es una transformación natural y que para cada \(B\in\catB\) la componente \(\varepsilon_B\colon FGB\to B\) es una flecha universal de \(F\) en \(B\), es decir, que el siguiente diagrama conmuta
+\[
+  \begin{tikzcd}[ampersand replacement=\&]
+    FGB\ar{r}{\varepsilon_B} \& B \&\& GB\\
+    FA\ar{ru}[swap]{\forall f}\ar[dashed]{u}{Fg} \&\&\& A\mathrlap{.}\ar{u}{\exists !}[swap]{g}
+  \end{tikzcd}
+\]
+\end{exercise}
+
+\begin{exercise}
+  Dado un orden parcial \((P,\leq)\) podemos formar una categoría \(\catP\) cuyos objetos son los elementos de \(P\) y hay una flecha \(p\to q\) si y sólo si \(p\leq q\). Ahora considera dos órdenes parciales vistos como categorías, \(\catP\) y \(\catQ\).
+  \begin{tasks}
+    \task ¿Qué es funtor \(F\colon\catP\to\catQ\)?
+    \task Si \(F,G\colon\catP\to\catQ\) son funtores, entonces ¿que se debe satisfacer para que haya una transformación natural \(\tau\colon F\to G\)?
+    \task Si \(F\colon\catP\to\catQ\) y \(G\colon\catQ\to\catP\) son funtores, entonces ¿que condición se debe satisfacer para que \(F\dashv G\)? \textit{Sugerencia: en este caso lo más fácil es describir la biyección de flechas}.
+  \end{tasks}
+\end{exercise}
+
+
 \end{document}

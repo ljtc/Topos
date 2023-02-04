@@ -1,0 +1,42 @@
+\providecommand\numberofexercises{}
+\XSIM{solution-body}{}
+\XSIM{exercise-body}{exercise-1=={Sean \(\catA \) y \(\catB \) dos categorías y \(F\colon \catA \to \catB \) y \(G\colon \catB \to \catA \) dos funtores. Si \(F\dashv G\), entonces demuestra que la counidad \(\varepsilon \colon FG\to \Id _{\catB }\) es una transformación natural y que para cada \(B\in \catB \) la componente \(\varepsilon _B\colon FGB\to B\) es una flecha universal de \(F\) en \(B\), es decir, que el siguiente diagrama conmuta \[ \begin {tikzcd}[ampersand replacement=\&] FGB\ar {r}{\varepsilon _B} \& B \&\& GB\\ FA\ar {ru}[swap]{\forall f}\ar [dashed]{u}{Fg} \&\&\& A\mathrlap {.}\ar {u}{\exists !}[swap]{g} \end {tikzcd} \]}||exercise-2=={Dado un orden parcial \((P,\leq )\) podemos formar una categoría \(\catP \) cuyos objetos son los elementos de \(P\) y hay una flecha \(p\to q\) si y sólo si \(p\leq q\). Ahora considera dos órdenes parciales vistos como categorías, \(\catP \) y \(\catQ \). \begin {tasks} \task ¿Qué es funtor \(F\colon \catP \to \catQ \)? \task Si \(F,G\colon \catP \to \catQ \) son funtores, entonces ¿que se debe satisfacer para que haya una transformación natural \(\tau \colon F\to G\)? \task Si \(F\colon \catP \to \catQ \) y \(G\colon \catQ \to \catP \) son funtores, entonces ¿que condición se debe satisfacer para que \(F\dashv G\)? \textit {Sugerencia: en este caso lo más fácil es describir la biyección de flechas}. \end {tasks}}}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
+\XSIM{goal}{exercise}{bonus-points}{0}
+\XSIM{totalgoal}{bonus-points}{0}
+\XSIM{order}{1||2}
+\XSIM{use}{}
+\XSIM{use!}{}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}}
+\XSIM{print}{}
+\XSIM{print!}{}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}}
+\XSIM{total-number}{2}
+\XSIM{exercise}{2}
+\XSIM{types}{exercise}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises}||exercise-2=={all exercises}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2}
+\setcounter{totalexerciseinall exercises}{2}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{solution}{}
+\XSIM{chapter-value}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{chapter}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{section}{exercise-1=={0.0}||exercise-2=={0.0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}}
+\XSIM{subtitle}{}
+\XSIM{points}{}
+\XSIM{bonus-points}{}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}}
+\XSIM{tags}{}
+\XSIM{topics}{}
+\XSIM{userpoints}{}
+\XSIM{bodypoints}{}
+\XSIM{userbonus-points}{}
+\XSIM{bodybonus-points}{}
