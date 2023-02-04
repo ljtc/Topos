@@ -41,5 +41,7 @@ Como la definición está escrita en términos de conjuntos y funciones, entonce
 que no use a la categoría $$\mathbf{Con}$$. Para demostrar que nuestra definición implica cualquier 
 equivalencia se usa la naturalidad de la biyección de manera conveniente.
 
+[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
+
 
 ## Unidad y Counidad
