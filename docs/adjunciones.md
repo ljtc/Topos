@@ -26,7 +26,7 @@ y considerar la siguiente función
 $$
 \begin{gather*}
   \mathbf{B}(Fa,B)\colon\mathbf{B}(FA',B)\longrightarrow\mathbf{B}(FA,B)\\
-  (FA'\xrightarrow{f}B)\; \mapsto\; (FA\xrightarrow{Fa}FA'\xrightarrow{f}B)
+  (FA'\xrightarrow{f}B)\quad \mapsto\quad (FA\xrightarrow{Fa}FA'\xrightarrow{f}B)
 \end{gather*}
 $$
 
@@ -73,3 +73,26 @@ Tanto la unidad como la counidad satisfacen una propiedad univesal. Con esta pro
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hgk3--yc_Ig" title="Clase 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+## Identidades triangulares
+Usando que las componentes de la unidad y la counidad son flechas universales es posible recuperar la biyección natural de la definición de adjunción. Con la unidad tenemos
+
+$$
+\begin{gather*}
+  \varphi_{A,B}\mathbf{B}(FA,B)\longrightarrow\mathbf{A}(A,GB)\\
+  (FA\xrightarrow{f}B) \quad\mapsto\quad (A\xrightarrow{\eta_A}GFA\xrightarrow{Gf}GB).
+\end{gather*}
+$$
+
+Mientra que con la counidad podemos definir a la inversa de $$\varphi$$, que denotaremos con $$\psi$$, como sigue
+
+$$
+\begin{gather*}
+  \psi_{A,B}\mathbf{A}(A,GB)\longrightarrow\mathbf{B}(FA,B)\\
+  (A\xrightarrow{g}GB) \quad\mapsto\quad (FA\xrightarrow{Fg}FGB\xrightarrow{\varepsilon_B}B).
+\end{gather*}
+$$
+
+Ahora, podemos usar estas reglas de evaluación para repetir lo que hicimos para obtener a la unidad (usando a $$\psi$$) y la counidad (mediante $$\varphi$$). De esta forma obtendremos dos ecuaciones que son conocidas como las *identidades triangulares*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZZnXU__ShI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
