@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1675704344 "/home/luis/Documentos/github/topos/LaTeX/tarea1.tex" "tarea1.pdf" "tarea1" 1675704346 0
+["lualatex"] 1675705316 "/home/luis/Documentos/github/topos/LaTeX/tarea1.tex" "tarea1.pdf" "tarea1" 1675705319 0
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1666615078 637084 73ae50787ada38c742687c846e80a72e ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1666614886 128410 2c8843a4c264e985170a9d377f3581dd ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1666618925 136312 e31128e2e8461ae6763a3b7635108425 ""
@@ -201,9 +201,9 @@
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1664913378 13565 83bac25a8cf8630acccd6a7f8bb9f791 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1674492382 6897234 b5eb04c75e14056e5c80003fce469da9 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1674492435 11885505 af6b8bf3ead39c1bf7130e51bf04ca9a ""
-  "tarea1.aux" 1675704346 746 95f0e4849c922ea4dba38ac71f90ba14 "lualatex"
+  "tarea1.aux" 1675705318 746 95f0e4849c922ea4dba38ac71f90ba14 "lualatex"
   "tarea1.tex" 1675704341 3201 293a445dd7b4db78981a6219a02b4bc0 ""
-  "tarea1.xsim" 1675704346 5091 b10e9a17fc081047feb130b9edaac6d0 "lualatex"
+  "tarea1.xsim" 1675705318 5091 b10e9a17fc081047feb130b9edaac6d0 "lualatex"
   (generated)
   "tarea1.aux"
   "tarea1.log"
