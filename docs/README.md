@@ -13,10 +13,11 @@ En esta sección estarán los vídeos de clases y alguna nota o aclaración de l
 
 ## Temas
 En un intento de organizar este material se irá subiendo por temas
+* [Grupo-libre]{:.heading.flip-title}
 * [Adjunciones]{:.heading.flip-title}
 
 
-
+[Grupo-libre]: grupolibre.md
 [Adjunciones]: adjunciones.md
 
 
