@@ -345,6 +345,8 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
+INPUT /home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
+INPUT /home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./tarea1.xsim
 OUTPUT tarea1.pdf
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map

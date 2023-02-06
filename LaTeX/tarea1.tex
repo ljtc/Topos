@@ -7,6 +7,15 @@
 \author{Seminario de Álgebra B}
 \date{}
 
+\SetExerciseParameters{exercise}{
+  exercise-name = Ejercicio,
+  solution-name = Solución,
+  exercise-heading = \paragraph,
+  solution-heading = \paragraph
+}
+
+\setlength{\droptitle}{-3.5cm}
+
 \begin{document}
 \maketitle
 
@@ -28,6 +37,36 @@ Sean \(\catA\) y \(\catB\) dos categorías y \(F\colon\catA\to\catB\) y \(G\colo
     \task Si \(F,G\colon\catP\to\catQ\) son funtores, entonces ¿que se debe satisfacer para que haya una transformación natural \(\tau\colon F\to G\)?
     \task Si \(F\colon\catP\to\catQ\) y \(G\colon\catQ\to\catP\) son funtores, entonces ¿que condición se debe satisfacer para que \(F\dashv G\)? \textit{Sugerencia: en este caso lo más fácil es describir la biyección de flechas}.
   \end{tasks}
+\end{exercise}
+
+\begin{exercise}%
+\label{ej:cerr-int}
+  Sean \(F\colon\catP\to\catQ\) y \(G\colon\catQ\to\catP\) tales que \(F\dashv G\). Demuestra que \(GF\) es una operación de cerradura en \(\catP\), es decir,
+  \begin{tasks}(2)
+    \task \(p\leq GF(p)\),
+    \task \(GF(GF(p))=GF(p)\),
+    \task \(p\leq p' \implies GF(p)\leq GF(p')\).
+  \end{tasks}
+  De manera dual, demuestra que \(FG\) es una operación de interior en \(\catQ\), esto es,
+  \begin{tasks}[resume](2)
+    \task \(FG(q)\leq q\),
+    \task \(FG(FG(q))=FG(q)\),
+    \task \(q\leq q' \implies FG(q)\leq FG(q')\).
+  \end{tasks}
+\end{exercise}
+
+\begin{exercise}
+  Continuando con el ejercicio~\ref{ej:cerr-int}, diremos que un objeto \(p\in\catP\) es cerrado si \(p=GF(p)\) y un objeto \(q\in\catQ\) es abierto si \(q=FG(q)\). Denotamos con \(\catP_0\) a la subcategoría plena de objetos cerrados en 
+  \(\catP\) y con \(\catQ_0\) a la subcategoría plena de objetos abiertos en \(\catQ\). Demuestra que \(\catP_0\) es equivalente a \(\catQ_0\).
+\end{exercise}
+
+\begin{exercise}
+  Ahora toma \(\catP\) y \(\catQ\) como la categoría generada por los enteros no negativos con el orden usual. Considera
+  \begin{align*}
+    F(a) &= \text{el \(a\)-esimo número primo, si \(a>0\) y \(F(0)=0\)},\\
+    G(a) &= \text{el número de primos \leq b}.
+  \end{align*}
+  Usa los ejercicios anteriores para demostrar qua hay una cantidad infinita de primos.
 \end{exercise}
 
 
