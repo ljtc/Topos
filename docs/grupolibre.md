@@ -31,5 +31,6 @@ Con esto tenemos el conjunto subyacente del que será el grupo libre generado po
 
 Se puede demostrar que el grupo libre tiene una propiedad universal y que con ella se puede definir en funciones de tal forma que resulte ser un funtor.
 
+<p> </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T_ZyD91OFr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

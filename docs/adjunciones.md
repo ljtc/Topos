@@ -71,6 +71,8 @@ tranformación natural $$\varepsilon\colon FG\to\mathrm{Id}_{\mathbf{B}}$$ llama
 
 Tanto la unidad como la counidad satisfacen una propiedad univesal. Con esta propiedad será posible demostrar una equivalencia de adjunción, además de poder demostrar la propiedad que eventualmente también será otra equivalencia del concepto de adjunción.
 
+<p> </p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hgk3--yc_Ig" title="Clase 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
@@ -94,5 +96,7 @@ $$
 $$
 
 Ahora, podemos usar estas reglas de evaluación para repetir lo que hicimos para obtener a la unidad (usando a $$\psi$$) y la counidad (mediante $$\varphi$$). De esta forma obtendremos dos ecuaciones que son conocidas como las *identidades triangulares*
+
+<p> </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fZZnXU__ShI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
