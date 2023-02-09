@@ -100,3 +100,46 @@ Ahora, podemos usar estas reglas de evaluación para repetir lo que hicimos para
 <p> </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fZZnXU__ShI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Ejemplos
+Un ejemplo de adjunción se obtiene considerando los funtores que olvidan y los libres. En particular, si 
+$$G\colon\mathbf{Gru}\to\mathbf{Con}$$ es el funtor que olvida la estructura de grupo y 
+$$F\colon\mathbf{Con}\to\mathbf{Gru}$$ es el funtor que a cada conjunto la asocia su grupo libre, entonces 
+$$F\dashv G$$. La unidad en la componente $$X$$ debe ser la función
+
+$$
+\begin{gather*}
+  \eta_X\colon X\longrightarrow GFX\\
+  x\mapsto (x)
+\end{gather*}
+$$
+
+y la counidad en la componente $$H$$ es el morfismo
+
+$$
+\begin{gather}
+  \varepsilon_H\colon GFH\to H\\
+  (xy^*)\mapsto x\cdot y^{-1}.
+\end{gather}
+$$
+
+No es difícil ver que estas son transformaciones naturales y satisfacen las identidades triangulares. Así, podemos decir que el grupo libre está definido como el adjunto derecho del funtor que olvida. En otras palabras es posible definir grupo libre mediante adjunciones.
+
+**pronto habrá un video**
+
+Otro ejemplo que muestra una característica interesante del poder definitorio que tienen las adjunciones es la oposición que hay entra par e impar en $$(\mathbb{N},\leq)$$. En $$\mathbb{N}$$ son conceptos completamente opuestos (la intersección de los correspondientes subconjuntos es vacía); sin embargo, veremos que están parametrizados por el mismo objeto.
+
+Consideramos las funciones $$2n,2n+1\colon\mathbb{N}\to\mathbb{N}$$. Con la primera obtenemos a los pares y con la segunda a los impares. Además, consideramos la función $$h\colon\mathbb{N}\to\mathbb{N}$$ definida por pedazos
+
+$$
+h(m)=
+\begin{cases}
+m/2 & \text{si } m \text{ es par}\\
+(m-1)/2 & \text{si } m \text{ es impar.}
+\end{cases}
+$$
+
+No es difícil mostrar que las tres funciones preservan el orden, es decir, son funtores de la categoría inducida por el orden parcial $$(\mathbb{N},\leq)$$ en sí misma. Más aún, se satisface $$2n\dashv h\dashv 2n+1$$ y las composiciones $$h\circ 2n$$ y $$ h\circ 2n+1$$ son las identidades. Estas condiciones serán lo que llamaremos unidad e identidad de los opuestos adjuntos.
+
+**pronto habrá un video**
