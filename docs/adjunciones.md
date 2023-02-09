@@ -120,7 +120,7 @@ y la counidad en la componente $$H$$ es el morfismo
 $$
 \begin{gather}
   \varepsilon_H\colon GFH\to H\\
-  (xy^*)\mapsto x\cdot y^{-1}.
+  (xy^*)\mapsto x\cdot y^{-1}
 \end{gather}
 $$
 
