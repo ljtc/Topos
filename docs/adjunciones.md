@@ -142,4 +142,10 @@ $$
 
 No es difícil mostrar que las tres funciones preservan el orden, es decir, son funtores de la categoría inducida por el orden parcial $$(\mathbb{N},\leq)$$ en sí misma. Más aún, se satisface $$2n\dashv h\dashv 2n+1$$ y las composiciones $$h\circ 2n$$ y $$ h\circ 2n+1$$ son las identidades. Estas condiciones serán lo que llamaremos unidad e identidad de los opuestos adjuntos.
 
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
+
 **pronto habrá un video**
