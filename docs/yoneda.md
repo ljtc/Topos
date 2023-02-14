@@ -19,7 +19,7 @@ de flechas $$\mathbf{C}(A,C)$$. Si $$f\colon A\to B$$ entonces podemos definir u
 $$
 \begin{gather*}
   \mathbf{C}(f,C)\colon \mathbf{C}(B,C)\longrightarrow\mathbf{C}(A,C)\\
-  (B\xrightarrow{g}C)\mapsto (A\matpsto{f}B\mapsto{g}C)
+  (B\xrightarrow{g}C)\mapsto (A\mapsto{f}B\mapsto{g}C)
 \end{gather*}
 $$
 
@@ -44,6 +44,6 @@ $$\mathbf{y}\colon\mathbf{C}\to\mathbf{Con}^{\mathbf{C}^{\text{op}}}$$ definido 
 ## Corolario
 El funtor de Yoneda es fiel y pleno.
 
-<iframe src="https://drive.google.com/file/d/1wI8tfOjbey0wRqP41bwQm9keckv-RUT7/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 
