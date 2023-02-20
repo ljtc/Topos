@@ -1,0 +1,185 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{defs}[2020/10/08]
+
+\RequirePackage{mathtools}
+\RequirePackage{amsthm}
+\RequirePackage{fontspec}
+\RequirePackage[warnings-off={mathtools-colon,mathtools-overbracket},mathrm=sym]{unicode-math}
+\RequirePackage{tikz}
+\usetikzlibrary{calc,cd,arrows,arrows.meta}
+\tikzcdset{arrow style=tikz, diagrams={>={Classical TikZ Rightarrow[]}}}
+
+%Definición de teoremas
+\theoremstyle{definition}
+\newtheorem{defi}{Definición}[chapter]
+\newtheorem{obs}[defi]{Observación}
+\newtheorem{ej}[defi]{Ejercicio}
+\newtheorem{ejem}[defi]{Ejemplo}
+%
+\theoremstyle{plain}
+\newtheorem{teo}[defi]{Teorema}
+\newtheorem{prop}[defi]{Proposición}
+\newtheorem{lema}[defi]{Lema}
+\newtheorem{coro}[defi]{Corolario}
+%______________________________________
+
+
+%Ambiente demostración
+\renewenvironment{proof}[1][\proofname] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse}
+%___________________________________________________________________________
+
+%Categorías, Topos y Estructuras
+\ExplSyntaxOn
+\NewDocumentCommand{\makeabbrev}{mmm}
+ {
+  \myab_makeabbrev:nnn { #1 } { #2 } { #3 }
+ }
+
+\cs_new_protected:Npn \myab_makeabbrev:nnn #1 #2 #3
+ {
+  \clist_map_inline:nn { #3 }
+   {
+    \cs_new_protected:cpn { #2 } { #1 { ##1 } }
+   }
+ }
+\ExplSyntaxOff
+
+\makeabbrev{\symbf}{cat#1}{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z}%cats peques
+\makeabbrev{\symscr}{topos#1}{A,B,C,D,E,F,G,S,X,Y,M}       %topos
+\makeabbrev{\symcal}{lcat#1}{A,B,C,D,E,K,M,S,V,X,Y}        %cats grandes
+\makeabbrev{\symbb}{bb#1}{A,B,C,D,L,N,P,R,Q,X,Y,M,Z}       %negritas de pizarrón
+\makeabbrev{\symfrak}{est#1}{A,B,C,D,E,F}                  %estructuras
+
+%____________________________________________________
+
+%Operadores
+\DeclareMathOperator{\nat}{Nat}          %trans naturales
+\DeclareMathOperator{\gavillas}{Gav}     %gavillas
+\DeclareMathOperator{\ide}{Idem}         %idempotentes
+\DeclareMathOperator{\tr}{tr}            %truncar
+\DeclareMathOperator{\es}{es}            %esqueleto
+\DeclareMathOperator{\coes}{coes}        %coesqueleto
+\DeclareMathOperator{\indes}{Ind}        %indescomponibles
+\DeclareMathOperator{\Obj}{Obj}          %Objetos
+\DeclareMathOperator{\Fl}{Fl}            %Flechas
+\DeclareMathOperator{\dom}{dom}          %dominio
+\DeclareMathOperator{\cod}{cod}          %codominio
+\DeclareMathOperator{\pun}{puntos}       %puntos
+\DeclareMathOperator{\dis}{discreto}     %discreto
+\DeclareMathOperator{\codis}{codiscreto} %codiscreto
+%___________________________________________________________________________
+
+%Símbolos especiales
+\newcommand{\op}{^{\symup{op}}}                  %opuesta
+\newcommand{\igor}{\symup{Igor}}                 %topología Igor
+\newcommand{\cuni}{\symup{Uni}}                  %clase de unilaterales
+\newcommand{\true}{v}                            %verdadero
+\newcommand{\false}{f}                           %falso
+\newcommand{\fy}{\symbf{y}}                      %funtor de Yoneda
+\newcommand{\id}{\symup{id}}                     %identidad
+\newcommand{\Id}{\symup{Id}}                     %Identidad
+\newcommand{\ev}{\symup{ev}}                     %evaluación
+\newcommand{\dan}{\symup{Dan}}                   %extensión derecha de Kan
+\newcommand{\ian}{\symup{Ian}}                   %extensión izquierda de Kan
+\newcommand{\splice}{\symscr{s}}                 %splice
+\newcommand{\single}{\{\,-\,\}}                  %unitario
+\NewDocumentCommand{\idem}{m}{\ide(#1)}          %idempotentes de ...
+\NewDocumentCommand{\ind}{m}{\symbf{\indes(#1)}} %indescomponibles de ...
+%___________________________________________________________________________
+
+
+%Categorías especiales
+\newcommand{\con}{\symbf{Con}}  %conjuntos
+\newcommand{\boo}{\symbf{Boo}}  %álgebras de Boole
+\newcommand{\gru}{\symbf{Gru}}  %grupos
+\newcommand{\uni}{\symbf{Uni}}  %unilaterales
+\newcommand{\gra}{\symbf{GraR}} %gráficas reflexivas
+\newcommand{\et}{\symbf{Top}}   %espacios topológicos
+\newcommand{\su}{\symbb{M}}     %submonoide de Uni
+
+%Categorías con parámetros 
+\NewDocumentCommand{\simp}{O{}}{\symbf{\Delta}_{#1}} %simplicial
+
+\NewDocumentCommand{\pg}{ s m O{} }                  %pregavillas
+{
+  \IfBooleanTF{#1}
+  { \con^{#2_{#3}} }     %con estrella sin op, se puede truncar
+  { \con^{#2_{#3}\op} }  %sin estrella con un op, se puede truncar
+}
+
+\NewDocumentCommand{\csim}{O{}}                      %conjuntos simpliciales
+{\con^{\simp[#1]\op}}
+
+\NewDocumentCommand{\dk}{m}{\symtt{k}#1}             %débilmente Kan de ...
+%_______________________________________________________
+
+%Otras construcciones
+\ExplSyntaxOn
+%Categoría de gavillas
+\NewDocumentCommand{\gav}{m}
+{
+  \seq_set_from_clist:Nn \l_tmpa_seq { \gavillas( #1 ) }
+  \seq_use:Nn \l_tmpa_seq { , }
+}
+ 
+%Flechas de A a B
+\NewDocumentCommand{\Ar}{ m m }
+ {
+  \seq_set_from_clist:Nn \l_tmpa_seq { #1 ( #2 ) }
+  \seq_use:Nn \l_tmpa_seq { , }
+ }
+\ExplSyntaxOff
+%_______________________________________________________
+
+%Otros símbolos
+%cocientes
+\NewDocumentCommand{\quotient}{ m m }
+{{\left.\raisebox{.2em}{\ensuremath{#1}}\middle/\raisebox{-.2em}{\ensuremath{#2}}\right.}}
+
+%"colon alreves"
+\newcommand\noloc{%
+  \nobreak
+  \mspace{6mu plus 1mu}
+  {:}
+  \nonscript\mkern-\thinmuskip
+  \mathpunct{}
+  \mspace{2mu}
+}
+%_______________________________________________________
+
+%Delimitadores (mathtools)
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}        %valor absoluto
+\DeclarePairedDelimiter{\iac}{(}{]}                  %intervalo abierto-cerrado
+\DeclarePairedDelimiter{\ica}{[}{)}                  %intervalo cerrado-abierto
+\DeclarePairedDelimiter{\name}{\ulcorner}{\urcorner} %nombre
+\DeclarePairedDelimiter{\familia}{\langle}{\rangle}  %familias
+\DeclarePairedDelimiter{\pair}{\langle}{\rangle}     %par ordenado
+\DeclarePairedDelimiter{\vb}{\lBrack}{\rBrack}       %valor booleano
+\DeclarePairedDelimiterX{\norm}[1]{\lVert}{\rVert}   %norma
+{\IfNoValueTF{#1}{\,-\,}{#1}}
+%_______________________________________________________
+
+%flechas con tikzcd en el texto
+\NewDocumentCommand{\fun}{ s O{} m O{} m O{-1em}}
+{
+  \IfBooleanTF{#1}
+  {\begin{tikzcd}[cramped, ampersand replacement = \&]
+		{#4\colon}{#3}\ar[#2]{r} \&[#6] #5
+	\end{tikzcd}}
+  {\begin{tikzcd}[cramped, ampersand replacement = \&]
+		#3\ar[#2]{r}{#4} \&[#6] #5
+	\end{tikzcd}}
+}
+%_______________________________________________________
+
+%conjuntos
+\providecommand\st{}
+\newcommand\SetSymbol[1][]{%
+\nonscript\:#1\vert
+\allowbreak
+\nonscript\:
+\mathopen{}}
+\DeclarePairedDelimiterX\set[1]{\{}{\}}{%
+\renewcommand\st{\SetSymbol[\delimsize]}
+#1
+}
