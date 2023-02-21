@@ -126,7 +126,7 @@ $$
 
 No es difícil ver que estas son transformaciones naturales y satisfacen las identidades triangulares. Así, podemos decir que el grupo libre está definido como el adjunto derecho del funtor que olvida. En otras palabras es posible definir grupo libre mediante adjunciones.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GKU-kcMWaHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GKU-kcMWaHI" title="clase5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Otro ejemplo que muestra una característica interesante del poder definitorio que tienen las adjunciones es la oposición que hay entra par e impar en $$(\mathbb{N},\leq)$$. En $$\mathbb{N}$$ son conceptos completamente opuestos (la intersección de los correspondientes subconjuntos es vacía); sin embargo, veremos que están parametrizados por el mismo objeto.
 
@@ -143,3 +143,8 @@ $$
 No es difícil mostrar que las tres funciones preservan el orden, es decir, son funtores de la categoría inducida por el orden parcial $$(\mathbb{N},\leq)$$ en sí misma. Más aún, se satisface $$2n\dashv h\dashv 2n+1$$ y las composiciones $$h\circ 2n$$ y $$ h\circ 2n+1$$ son las identidades. Estas condiciones serán lo que llamaremos unidad e identidad de los opuestos adjuntos.
 
 (Ver el primer vídeo en [el Lema de Yoneda-Grothendieck](./yoneda.md))
+
+Es posible demostrar que si $$F\dashv G$$ $$F\dashv G'$$, entonces $$G\cong G'$$ y algo similar con los adjuntos izquierdos. Además, nos permiten definir conceptos como equivalencia de categorías.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1Vc842ZqgeM" title="Clase7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+

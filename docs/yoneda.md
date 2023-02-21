@@ -34,7 +34,7 @@ $$
 PC\cong \mathbf{Con}^{\mathbf{C}^{\text{op}}}(\mathbf{C}(-,C),P)
 $$
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9CB2eyuJgJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9CB2eyuJgJk" title="Clase6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Una consecuencia
 El lema de Yoneda-Grothendieck tiene muchas consecuencias muy útiles en teoría de topos; sin embargo, ahora sólo veremos
