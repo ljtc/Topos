@@ -24,7 +24,14 @@ se tiene que $$\Gamma i\pi_I =\pi_J$$. El objeto $$L$$ se llama *vértice del co
 
 ## Límites
 Un diagrama puede tener muchos vértices así que no son suficientes para definir un objeto. Para lograr la unicidad (salvo isomorfismo) pediremos una propiedad universal: para cualquier otro cono 
-$$(A\xrightarrow{\alpha_I}\Gamma I)_{I\in\mathbf{I}}$$ existe una única $$h\colon A\to L$$ tal que $$\pi_I h=\alpha_I$$.
-
+$$(A\xrightarrow{\alpha_I}\Gamma I)_{I\in\mathbf{I}}$$ existe una única $$h\colon A\to L$$ tal que $$\pi_I h=\alpha_I$$. Cuando se satisface esta condición diremos que $$L$$ (obviando las flechas hacia los $$\Gamma I$$) es un cono límite, o simplemente límite, para el diagrama.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Vc842ZqgeM" title="Clase7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Diremos que un funtor $$G\colon\mathbf{B}\to\mathbf{A}$$ preserva límites si para cualquier diagrama 
+$$\Gamma\colon\mathbf{I}\to\mathbf{B}$$ y cono límite $$(L\xrightarrow{\pi_I}\Gamma I)_{I\in\mathbf{I}}$$ en 
+$$\mathbf{B}$$ se tiene que $$(GL\xrightarrow{G\pi_I}G\Gamma I)_{I\in\mathbf{I}}$$ es un límite en $$\mathbf{A}$$ para el diagrama $$G\Gamma\colon\mathbf{I}\to\mathbf{A}$$.
+
+Si $$F\dashv G$$, entonces $$G$$ preserva límites
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DYd0V2zLYEg" title="Clase8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
