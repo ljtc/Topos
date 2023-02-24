@@ -64,7 +64,7 @@ Los dos funtores de arriba definen una adjunción $$F^T\dashv G^T$$.
 Si empezamos con una adjunción $$(F,G,\eta,\mu)\colon\mathbf{A}\to\mathbf{B}$$, luego hacemos la mónada inducida 
 $$(T,\eta,\mu)$$ y después la adjunción generada por esta mónada $$(F^T,G^T,\eta^T,\mu^T)$$, entonces podemos preguntarnos si hay una relación entre la adjunción con la que empezamos y la con la que terminamos.
 
-El funtor de comparación $$K\colon\mathbf{B}\to\mathbf{B}^T$$ está definido mediante
+El funtor de comparación $$K\colon\mathbf{B}\to\mathbf{A}^T$$ está definido mediante
 
 $$
 \begin{array}{ccc}
@@ -75,3 +75,5 @@ B'          &         & (GB,G\varepsilon_{B'})
 $$
 
 Este funtor de cierta forma mide que tan algebraica es la categoría $$\mathbf{B}$$ sobre $$\mathbf{A}$$, de tal forma que si resulta se runa equivalencia entonces diremos que $$\mathbf{B}$$ es muy algebraica sobre $$\mathbf{A}$$.
+
+Se demuestra que este funtor satisface $$KF=F^T$$ y $$G^T K=G$$.

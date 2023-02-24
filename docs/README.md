@@ -16,6 +16,7 @@ En un intento de organizar este material se irá subiendo por temas
 * [Grupo-libre]{:.heading.flip-title}
 * [Adjunciones]{:.heading.flip-title}
 * [Mónadas]{:.heading.flip-title}
+* [Teorema de Beck]{:.heading.flip-title}
 * [Lema de Yoneda-Grothendieck]{:.heading.flip-title}
 * [Límites]{:.heading.flip-title}
 
@@ -25,5 +26,6 @@ En un intento de organizar este material se irá subiendo por temas
 [Mónadas]: monadas.md
 [Lema de Yoneda-Grothendieck]: yoneda.md
 [Límites]: limites.md
+[Teorema de Beck]: beck.md
 
 
