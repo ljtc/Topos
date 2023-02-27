@@ -8,7 +8,10 @@ sitemap: false
 ---
 
 ## Definición
-Una categoría ... es un topoe elemental si ...
+Una categoría $$\mathscr{E}$$ es un topos elemental si satisface
+1. $$\mathscr{E}$$ tiene límites finitos,
+2. $$\mathscr{E}$$ tiene clasificador de subobjetos $$\Omega$$,
+3. Para cada $$A\in\mathscr{E}$$ existe un objeto $$PA$$ junto con una flecha $$A\times PA\to\Omega$$.
 
 potencia es un funtor...
 
