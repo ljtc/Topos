@@ -13,12 +13,19 @@ En esta sección estarán los vídeos de clases y alguna nota o aclaración de l
 
 ## Temas
 En un intento de organizar este material se irá subiendo por temas
-* [Grupo-libre]{:.heading.flip-title}
-* [Adjunciones]{:.heading.flip-title}
-* [Mónadas]{:.heading.flip-title}
-* [Teorema de Beck]{:.heading.flip-title}
+
+### Repaso de categorías
+1. [Grupo-libre]{:.heading.flip-title}
+2. [Adjunciones]{:.heading.flip-title}
+3. [Mónadas]{:.heading.flip-title}
+4. [Teorema de Beck]{:.heading.flip-title}
+
+#### Independientes del orden
 * [Lema de Yoneda-Grothendieck]{:.heading.flip-title}
 * [Límites]{:.heading.flip-title}
+
+### Propiedades de topos elementales
+1. [Definición de topos]{:.heading.flip-title}
 
 
 [Grupo-libre]: grupolibre.md
@@ -27,5 +34,6 @@ En un intento de organizar este material se irá subiendo por temas
 [Lema de Yoneda-Grothendieck]: yoneda.md
 [Límites]: limites.md
 [Teorema de Beck]: beck.md
+[Definición de topos]: deftopos.md
 
 

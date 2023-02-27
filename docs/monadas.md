@@ -59,6 +59,8 @@ $$
 
 Los dos funtores de arriba definen una adjunción $$F^T\dashv G^T$$.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QjmKWUB_9rw" title="Clase10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## El funtor de comparación
 Si empezamos con una adjunción $$(F,G,\eta,\mu)\colon\mathbf{A}\to\mathbf{B}$$, luego hacemos la mónada inducida 
@@ -77,3 +79,5 @@ $$
 Este funtor de cierta forma mide que tan algebraica es la categoría $$\mathbf{B}$$ sobre $$\mathbf{A}$$, de tal forma que si resulta se runa equivalencia entonces diremos que $$\mathbf{B}$$ es muy algebraica sobre $$\mathbf{A}$$.
 
 Se demuestra que este funtor satisface $$KF=F^T$$ y $$G^T K=G$$.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-roYp5mItUM" title="Clase11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
