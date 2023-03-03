@@ -35,9 +35,9 @@ $$g\colon B\to C$$, entonces $$m(\hat{f},\hat{g})=\hat{gf}$$.
 
 ## Imagen directa
 Empezaremos haciendo una simplificación del problema. En lugar de tomar una flecha arbitraria para calcular imágenes 
-directas tomaremos un mono. Sea $$m\colon B'\tailrightarrow B$$ un mono en $$\mathcal{E}$$. Es posible construir una 
+directas tomaremos un mono. Sea $$m\colon B'\rightarrowtail B$$ un mono en $$\mathcal{E}$$. Es posible construir una 
 flecha $$\exists_k\colon PB'\to PB$$ que "calcule" la imagen directa de un subobjeto de $B'$ respecto a la flecha $$k$$.
-En otras palabras, se construye $$\exists_k$$ y se demuestra que si $$m\colon S\tailrightarrow B'$$ es mono entonces
+En otras palabras, se construye $$\exists_k$$ y se demuestra que si $$m\colon S\rightarrowtail B'$$ es mono entonces
 
 $$
 \exists_k\, \hat{\varphi_m}\;=\;\hat{\varphi_{mk}}
