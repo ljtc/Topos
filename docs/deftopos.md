@@ -51,4 +51,3 @@ $$\varphi_m\,x=v_X \iff \in_A(x,\hat{\varphi_m})=v_X$$.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fttIatTFWFE" title="Clase17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-## Construcción de exponenciales

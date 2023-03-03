@@ -26,6 +26,7 @@ En un intento de organizar este material se irá subiendo por temas
 
 ### Propiedades de topos elementales
 1. [Definición de topos]{:.heading.flip-title}
+2. [Construcciones básicas]{:.heading.flip-title}
 
 
 [Grupo-libre]: grupolibre.md
@@ -35,5 +36,6 @@ En un intento de organizar este material se irá subiendo por temas
 [Límites]: limites.md
 [Teorema de Beck]: beck.md
 [Definición de topos]: deftopos.md
+[Construcciones básicas]: basictopos.md
 
 
