@@ -7,6 +7,24 @@ hide_description: true
 sitemap: false
 ---
 
+## Algunos predicados
+Más adelante veremos que el clasificador de subobjetos creará una lógica interna para el topos. Hará eso de tal forma que 
+una flecha $$A\to\Omega$$ será una fórmula con una variable libre de tipo $$A$$. Usaremos esta intuición y llamaremos 
+predicados a las flechas que construiremos en esta sección.
+
+Con la propiedad universal del producto es posible construir la flecha *diagonal* $$\Delta_A\colon A\to A\timesA$$. Esta 
+es la flecha con la propiedad de que al componerla con cualquiera de las dos proyecciones se obtiene la identidad. Es 
+fácil ver que la diagonal es un mono y así tiene una flecha característica $$\delta_A\colon A\times A\to Omega$$. Este predicado, o fórmula con dos variables libres de tipo $$A$$, satisface que si tomamos elementos generalizados 
+$$x,y\colon X\to A$$ entonces
+
+$$
+\delta_A(x,y)=v_X \iff x=y
+$$
+
+Así, $$\delta_A$$ es el predicado de igualdad en $$A$$ o la delta de Kronecker.
+
+Ahora, tomamos la $$P$$-transpuesta de $$\delta_A$$ y obtenemos la flecha *unitario* $$\{\cdot\}\colon A\to PA$$.
+
 ## Construcción de exponenciales
 En la definición de topos (elemental) ne se pidió que fuera una categoría cartesiana cerrada, ni siquiera que existan 
 objetos exponencial. En el tercer axioma se pide la existencia de objetos potencia. Estos objetos son, como en conjuntos, 
