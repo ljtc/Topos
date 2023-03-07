@@ -12,7 +12,7 @@ Más adelante veremos que el clasificador de subobjetos creará una lógica inte
 una flecha $$A\to\Omega$$ será una fórmula con una variable libre de tipo $$A$$. Usaremos esta intuición y llamaremos 
 predicados a las flechas que construiremos en esta sección.
 
-Con la propiedad universal del producto es posible construir la flecha *diagonal* $$\Delta_A\colon A\to A\timesA$$. Esta 
+Con la propiedad universal del producto es posible construir la flecha *diagonal* $$\Delta_A\colon A\to A\times A$$. Esta 
 es la flecha con la propiedad de que al componerla con cualquiera de las dos proyecciones se obtiene la identidad. Es 
 fácil ver que la diagonal es un mono y así tiene una flecha característica $$\delta_A\colon A\times A\to Omega$$. Este predicado, o fórmula con dos variables libres de tipo $$A$$, satisface que si tomamos elementos generalizados 
 $$x,y\colon X\to A$$ entonces
@@ -23,7 +23,20 @@ $$
 
 Así, $$\delta_A$$ es el predicado de igualdad en $$A$$ o la delta de Kronecker.
 
-Ahora, tomamos la $$P$$-transpuesta de $$\delta_A$$ y obtenemos la flecha *unitario* $$\{\cdot\}\colon A\to PA$$.
+Ahora, tomamos la $$P$$-transpuesta de $$\delta_A$$ y obtenemos la flecha *unitario* $$\{\cdot\}\colon A\to PA$$. La flecha unitario satisface, para cualesquiera $$x,y\colon X\to A$$,
+
+$$
+\in_A(x,\{y\})=v_X \iff x=y
+$$
+
+La equivalencia anterior muestra que nuestra flecha unitario de verdad se comporta como un conjunto unitario. Además, como es de esperar, también es mono; por lo que tiene una flecha característica $$\sigma_A\colon PA\to\Omega$$. Si $$x\colon X\to PA$$, entonces $$\sigma_A$$ satisface
+
+$$
+\sigma_A(x)=v_X \iff \exists X\xrightarrow{y}A(x=\{y\})
+$$
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h7j0MYBp6Fg" title="Clase17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Construcción de exponenciales
 En la definición de topos (elemental) ne se pidió que fuera una categoría cartesiana cerrada, ni siquiera que existan 
@@ -34,6 +47,8 @@ para obtener una categoría cartesiana cerrada (por supuesto, no sólo se usará
 Podemos pensar que la construcción está hecha en dos partes. En la primera necesitamos construir un objeto $$C^B$$ para 
 cualesquiera $$B,C\in\mathcal{E}$$. Esta construcción se basa fuertemente en lo que sucede en conjuntos, específicamente 
 cuando un subconjunto $$S\subseteq C\times B$$ es la gráfica de una función $$f\colon B\to C$$.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GBVeeYTWUcA" title="Clase18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 En la segunda parte de la construcción de exponenciales se demuestra que un topos es una categoría cartesiana cerrada. 
 Esto es, se muestra la existencia de la flecha evaluación $$ev_{B,C}\colon B\times C^B$$ y se muestra que es una flecha 
@@ -49,6 +64,8 @@ Una vez que ya hemos hecho todo la anterior tenemos aún más ya que $$C^B$$ se 
 en el sentido que $$\mathcal{E}(B,C)\sim C^B$$. Además, también es posible definir la composición como una operación 
 interna, es decir, hay una flecha $$m\colon B^A\times C^B\to C^A$$ que satisface: si $$f\colon A\to B$$ y 
 $$g\colon B\to C$$, entonces $$m(\hat{f},\hat{g})=\hat{gf}$$.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cQo96rclkyI" title="Clase19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Imagen directa
