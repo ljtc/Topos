@@ -35,7 +35,9 @@ $$
 \sigma_A(x)=v_X \iff \exists X\xrightarrow{y}A(x=\{y\})
 $$
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h7j0MYBp6Fg" title="Clase17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## Construcción de exponenciales
@@ -48,7 +50,9 @@ Podemos pensar que la construcción está hecha en dos partes. En la primera nec
 cualesquiera $$B,C\in\mathcal{E}$$. Esta construcción se basa fuertemente en lo que sucede en conjuntos, específicamente 
 cuando un subconjunto $$S\subseteq C\times B$$ es la gráfica de una función $$f\colon B\to C$$.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GBVeeYTWUcA" title="Clase18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 En la segunda parte de la construcción de exponenciales se demuestra que un topos es una categoría cartesiana cerrada. 
 Esto es, se muestra la existencia de la flecha evaluación $$ev_{B,C}\colon B\times C^B$$ y se muestra que es una flecha 
@@ -65,7 +69,9 @@ en el sentido que $$\mathcal{E}(B,C)\sim C^B$$. Además, también es posible def
 interna, es decir, hay una flecha $$m\colon B^A\times C^B\to C^A$$ que satisface: si $$f\colon A\to B$$ y 
 $$g\colon B\to C$$, entonces $$m(\hat{f},\hat{g})=\hat{gf}$$.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQo96rclkyI" title="Clase19" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## Imagen directa
