@@ -1,0 +1,48 @@
+\documentclass[article]{memoir}
+\usepackage{defs}
+\usepackage{xsim}
+\usepackage{tasks}
+
+\title{Tarea 2}
+\author{Seminario de Álgebra B}
+\date{}
+
+\SetExerciseParameters{exercise}{
+  exercise-name = Ejercicio,
+  solution-name = Solución,
+  exercise-heading = \paragraph,
+  solution-heading = \paragraph
+}
+
+\setlength{\droptitle}{-3.5cm}
+
+\DeclareMathOperator{\sub}{Sub}
+
+\begin{document}
+\maketitle
+
+\begin{exercise}
+  Sea \(C\in\toposE\). Muestra que \(C^C\) es un objeto monoide en \(\toposE\). Esto es, existen flechas
+  \(e\colon 1\to C^C\) y \(m\colon C^C\times C^C\to C^C\) tales que los siguientes diagramas conmutan
+  \[
+    \begin{tikzcd}[ampersand replacement=\&]
+      C^C\times C^C\times C^C\ar{r}{\id\times m}\ar{d}[swap]{m\times\id} \& C^C\times C^C\ar{d}{m}\\
+      C^C\times C^C\ar{r}[swap]{m} \& C^C
+    \end{tikzcd}
+    \quad
+    \begin{tikzcd}[ampersand replacement=\&]
+      1\times C^C\ar{r}{e\times\id}\ar{rd}[swap]{p_{C^C}} \& C^C\times C^C\ar{d}{m} 
+      \& C^C\times 1\ar{l}[swap]{\id\times e}\ar{ld}{p_{C^C}}\\
+      \& C^C
+    \end{tikzcd}
+  \]
+\end{exercise}
+
+\begin{exercise}
+  Demuestra que la biyección \(\toposE(A,\Omega)\cong\sub_{\toposE}(A)\) es natural en \(A\).
+\end{exercise}
+
+\begin{exercise}
+  Muestra que \(\con\op\) es equivalente a la categoría de álgebras de Boole completas y atómicas, \(\boo\).
+\end{exercise}
+\end{document}

@@ -1,0 +1,42 @@
+\providecommand\numberofexercises{}
+\XSIM{solution-body}{}
+\XSIM{exercise-body}{exercise-1=={Sea \(C\in \toposE \). Muestra que \(C^C\) es un objeto monoide en \(\toposE \). Esto es, existen flechas \(e\colon 1\to C^C\) y \(m\colon C^C\times C^C\to C^C\) tales que los siguientes diagramas conmutan \[ \begin {tikzcd}[ampersand replacement=\&] C^C\times C^C\times C^C\ar {r}{\id \times m}\ar {d}[swap]{m\times \id } \& C^C\times C^C\ar {d}{m}\\ C^C\times C^C\ar {r}[swap]{m} \& C^C \end {tikzcd} \quad \begin {tikzcd}[ampersand replacement=\&] 1\times C^C\ar {r}{e\times \id }\ar {rd}[swap]{p_{C^C}} \& C^C\times C^C\ar {d}{m} \& C^C\times 1\ar {l}[swap]{\id \times e}\ar {ld}{p_{C^C}}\\ \& C^C \end {tikzcd} \]}||exercise-2=={Demuestra que la biyección \(\toposE (A,\Omega )\cong \sub _{\toposE }(A)\) es natural en \(A\).}||exercise-3=={Muestra que \(\con \op \) es equivalente a la categoría de álgebras de Boole completas y atómicas, \(\boo \).}}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
+\XSIM{goal}{exercise}{bonus-points}{0}
+\XSIM{totalgoal}{bonus-points}{0}
+\XSIM{order}{1||2||3}
+\XSIM{use}{}
+\XSIM{use!}{}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{print}{}
+\XSIM{print!}{}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{total-number}{3}
+\XSIM{exercise}{3}
+\XSIM{types}{exercise}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises}||exercise-2=={all exercises}||exercise-3=={all exercises}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3}
+\setcounter{totalexerciseinall exercises}{3}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{solution}{}
+\XSIM{chapter-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
+\XSIM{chapter}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
+\XSIM{section}{exercise-1=={0.0}||exercise-2=={0.0}||exercise-3=={0.0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}}
+\XSIM{subtitle}{}
+\XSIM{points}{}
+\XSIM{bonus-points}{}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
+\XSIM{tags}{}
+\XSIM{topics}{}
+\XSIM{userpoints}{}
+\XSIM{bodypoints}{}
+\XSIM{userbonus-points}{}
+\XSIM{bodybonus-points}{}
