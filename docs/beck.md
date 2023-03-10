@@ -16,16 +16,24 @@ $$(T,\eta,\mu)$$ la mónada inducida y $$\mathbf{A}^T$$ la categoría de $$T$$-�
 2. Supongamos qu,e además de lo anterior, $$G$$ preserva coigualadores, entonces la unidad de la adjunción $$L\dashv K$$ es un isomorfismo.
 3. Si además $$G$$ refleja isomorfismos, entonces la counidad de $$L\dashv K$$ es un isomorfismo.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hbwwbIndQiM" title="Clase12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
-<p>Para lograr demostrar que $$L$$ es adjunto izquierdo de $$K$$ usamos coigualadores escindidos.</p>
+Para lograr demostrar que $$L$$ es adjunto izquierdo de $$K$$ usamos coigualadores escindidos.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QAbM5BceNto" title="Clase13" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
-<p>Luego mostramos que las componentes de la unidad son flechas universales.</p>
+Luego mostramos que las componentes de la unidad son flechas universales.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ucGlHP7KmM4" title="Clase14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
-<p>Finalmente concluimos con la demostración de $$L\dashv K$$ y el resto del teorema es fácil.</p>
+Finalmente concluimos con la demostración de $$L\dashv K$$ y el resto del teorema es fácil.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yphgYW6fKn0" title="Clase15" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>

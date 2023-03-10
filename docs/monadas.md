@@ -22,7 +22,9 @@ Podemos dar un conjunto de ejemplos de mónadas y al mismo tiempo dar un resulta
 
 Dada una adjunción $$(F,G,\eta,\mu)\colon\mathbf{A}\to\mathbf{B}$$, definimos una mónada sobre $$\mathbf{A}$$ como sigue: el endofuntor es $$GF$$, la unidad de la mónada es $$\eta$$ y la multiplicación es $$G\varepsilon_F$$. Es fácil ver que lo anterior define mónada.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gCDeCJsGDpg" title="Clase9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## Toda mónada induce una adjunción
@@ -59,7 +61,9 @@ $$
 
 Los dos funtores de arriba definen una adjunción $$F^T\dashv G^T$$.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QjmKWUB_9rw" title="Clase10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## El funtor de comparación
@@ -80,4 +84,6 @@ Este funtor de cierta forma mide que tan algebraica es la categoría $$\mathbf{B
 
 Se demuestra que este funtor satisface $$KF=F^T$$ y $$G^T K=G$$.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-roYp5mItUM" title="Clase11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>

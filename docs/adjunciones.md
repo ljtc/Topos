@@ -71,9 +71,9 @@ tranformación natural $$\varepsilon\colon FG\to\mathrm{Id}_{\mathbf{B}}$$ llama
 
 Tanto la unidad como la counidad satisfacen una propiedad univesal. Con esta propiedad será posible demostrar una equivalencia de adjunción, además de poder demostrar la propiedad que eventualmente también será otra equivalencia del concepto de adjunción.
 
-<p> </p>
-
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hgk3--yc_Ig" title="Clase 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## Identidades triangulares
@@ -97,9 +97,9 @@ $$
 
 Ahora, podemos usar estas reglas de evaluación para repetir lo que hicimos para obtener a la unidad (usando a $$\psi$$) y la counidad (mediante $$\varphi$$). De esta forma obtendremos dos ecuaciones que son conocidas como las *identidades triangulares*
 
-<p> </p>
-
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fZZnXU__ShI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
 ## Ejemplos
@@ -126,7 +126,9 @@ $$
 
 No es difícil ver que estas son transformaciones naturales y satisfacen las identidades triangulares. Así, podemos decir que el grupo libre está definido como el adjunto derecho del funtor que olvida. En otras palabras es posible definir grupo libre mediante adjunciones.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GKU-kcMWaHI" title="clase5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 Otro ejemplo que muestra una característica interesante del poder definitorio que tienen las adjunciones es la oposición que hay entra par e impar en $$(\mathbb{N},\leq)$$. En $$\mathbb{N}$$ son conceptos completamente opuestos (la intersección de los correspondientes subconjuntos es vacía); sin embargo, veremos que están parametrizados por el mismo objeto.
 
@@ -146,5 +148,7 @@ No es difícil mostrar que las tres funciones preservan el orden, es decir, son 
 
 Es posible demostrar que si $$F\dashv G$$ $$F\dashv G'$$, entonces $$G\cong G'$$ y algo similar con los adjuntos izquierdos. Además, nos permiten definir conceptos como equivalencia de categorías.
 
+<p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Vc842ZqgeM" title="Clase7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
