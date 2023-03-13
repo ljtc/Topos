@@ -1,0 +1,29 @@
+\begin{solution}
+    Primero se forman los productos fibrados
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        U\ar[tail]{d}[swap]{g}\ar{r} \& 1\ar{d}{\true}\\
+        \Omega\ar{r}[swap]{f} \& \Omega
+      \end{tikzcd}
+      \qquad
+      \begin{tikzcd}[ampersand replacement=\&]
+        V\ar[tail]{d}\ar{r} \& 1\ar{d}{\true}\\
+        U\ar{r}[swap]{g} \& \Omega\mathrlap{.}
+      \end{tikzcd}
+    \]
+    Así, \(U\) es subobjeto de \(1\) y \(V\) es otro subobjeto de \(1\) contenido en \(U\). Ahora consideramos el p.f.
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        V\ar{r}\ar[tail]{d} \& V\ar{r}\ar[tail]{d} \& U\ar{r}\ar[tail]{d} \& 1\ar[tail]{d}{\true}\\
+        U\ar{r} \&  1\ar{r}[swap]{\true} \& \Omega \ar{r}[swap]{f} \& \Omega\mathrlap{.}
+      \end{tikzcd}
+    \]
+    Como el exterior es un p.f. entonces la composición de abajo debe ser \(g\). Por lo tanto \(ffg=f\true U=g\), es decir, el siguiente diagrama conmuta
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        U\ar{r}{\id}\ar[tail]{d}[swap]{g} \& U\ar[tail]{d}{g}\\
+        \Omega\ar{r}[swap]{ff} \& \Omega\mathrlap{.}
+      \end{tikzcd}
+    \]
+    Como \(ff\) es mono, entonces debe ser un p.f. y así \(fff=f\) ya que las dos clasifican a \(g\). Finalmente, como \(f\) es mono se tiene \(ff=\id\).
+  \end{solution}

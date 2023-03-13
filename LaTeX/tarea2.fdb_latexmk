@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1678153823 "/home/luis/Documentos/github/topos/LaTeX/tarea2.tex" "tarea2.pdf" "tarea2" 1678153827 0
+["lualatex"] 1678669325 "/home/luis/Documentos/github/topos/LaTeX/tarea2.tex" "tarea2.pdf" "tarea2" 1678669331 0
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1666614886 128410 2c8843a4c264e985170a9d377f3581dd ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1666534046 127327 21b358d30855ffeaf6bd405fa33b4e25 ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1666534046 128146 5e3cadacf30a910fc6a114c82c296916 ""
@@ -11,10 +11,10 @@
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/stixtwotext-regular.luc" 1666721107 628652 4119aea21aeea1007980a6edaf7f332a ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-bold.luc" 1666721118 291903 6ef3fb44e9208a54d49e39d890498c85 ""
   "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1666721117 540716 37380e935edc928b810e18ae1c71de12 ""
-  "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1678153822 24425 c8bafddf727b4878760a5edd57158085 ""
-  "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1677677246 315103 0b60dca523f928033feeabf779d9010c ""
-  "/home/luis/Documentos/github/topos/LaTeX/tarea2.tex" 1678153819 1474 64057c767db74b954ff0bbcfcf56d912 ""
-  "/home/luis/texmf/tex/latex/defs/defs.sty" 1677810946 6660 fb270331ace9d2acce86faccc2a1a3f5 ""
+  "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1678647776 7164 5ff52169c2e2a46d4d87f949833581f9 ""
+  "/home/luis/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1678304180 315282 515b0ddb2011b2737f83ba8307c319f1 ""
+  "/home/luis/Documentos/github/topos/LaTeX/tarea2.tex" 1678669325 3199 8627413fc72a202955b52a08765f4781 ""
+  "/home/luis/texmf/tex/latex/defs/defs.sty" 1678485826 6820 c105df2cdb749e668ab2e716044a295c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoMath-Regular.otf" 1617503255 838508 d9bacc169e992e8de737de081f4e5e42 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoText-Bold.otf" 1617503255 296140 9d9e879880983b374249d837a1f8b4fe ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoText-Regular.otf" 1617503255 292268 66128a363e63539757cb35e8178ecaaa ""
@@ -201,11 +201,11 @@
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload-tounicode.lua" 1664913378 7528 9bc62ed441ed23b5222925b019479f78 ""
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload-unicode.lua" 1664913378 7917 30f5b1073daa0c6e85ca1db843fbd9cd ""
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1664913378 13565 83bac25a8cf8630acccd6a7f8bb9f791 ""
-  "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1677811758 6897234 b5eb04c75e14056e5c80003fce469da9 ""
-  "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1677811790 11876937 e84e96d797f6b7fdc9c21fa7d9287a85 ""
-  "tarea2.aux" 1678153826 468 72e6a36b9645c600f8511b26f3df1c97 "lualatex"
-  "tarea2.tex" 1678153819 1474 64057c767db74b954ff0bbcfcf56d912 ""
-  "tarea2.xsim" 1678153826 2641 57ddbfee158f61f1f84aa493a9e9d98f "lualatex"
+  "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1678561506 6897234 b5eb04c75e14056e5c80003fce469da9 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1678561794 11876673 fd99d0e49fce61cd2399a283110cd88e ""
+  "tarea2.aux" 1678669331 568 de31ee2b413956964b888fc24b94c2e1 "lualatex"
+  "tarea2.tex" 1678669325 3199 8627413fc72a202955b52a08765f4781 ""
+  "tarea2.xsim" 1678669331 4380 150e1bcb89eacb3df5168e6acddead1d "lualatex"
   (generated)
   "tarea2.aux"
   "tarea2.log"

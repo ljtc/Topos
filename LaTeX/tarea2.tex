@@ -3,6 +3,10 @@
 \usepackage{xsim}
 \usepackage{tasks}
 
+\setlrmarginsandblock{3cm}{*}{1}
+\setulmarginsandblock{3cm}{*}{*}
+\checkandfixthelayout
+
 \title{Tarea 2}
 \author{Seminario de Álgebra B}
 \date{}
@@ -13,8 +17,9 @@
   exercise-heading = \paragraph,
   solution-heading = \paragraph
 }
+\xsimsetup{solution/print=true}
 
-\setlength{\droptitle}{-3.5cm}
+\setlength{\droptitle}{-2.5cm}
 
 \setmainfont{Stix Two Text}
 \setmathfont{Stix Two Math}
@@ -46,6 +51,46 @@
 \end{exercise}
 
 \begin{exercise}
-  Muestra que \(\con\op\) es equivalente a la categoría de álgebras de Boole completas y atómicas, \(\boo\).
+  Si \(f\colon\Omega\to\Omega\) es un mono, entonces \(ff=\id_{\Omega}\).
+\end{exercise}
+
+\begin{exercise}
+  El par núcleo de una flecha \(f\colon A\to B\) consta de dos flechas \(a,b\colon R\to A\) tales que el diagrama
+  \[
+    \begin{tikzcd}[ampersand replacement=\&]
+      R\ar{r}{a}\ar{d}[swap]{b} \& A\ar{d}{f}\\
+      A\ar{r}[swap]{f} \& B
+    \end{tikzcd}
+  \]
+  es un producto fibrado. Demuestra que el par núcleo cumple lo siguiente:
+  \begin{tasks}
+    \task la flecha \((a,b)\colon R\to A\times A\) es mono,
+    \task la diagonal \(\Delta_A\colon A\to A\times A\) está contenida en \((a,b)\), es decir, existe \(\rho\colon A\to R\) tal que el siguiente diagrama conmuta
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        A\ar[dashed]{rr}{\rho}\ar{rd}[swap]{\Delta_A} \&\& R\ar{ld}{{(a,b)}}\\
+        \& A\times A
+      \end{tikzcd}
+    \]
+    \task \((b,a)\) está contenida en \((a,b)\), es decir, existe una flecha \(\sigma\colon R\to R\) que hace conmutar al diagrama
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        R\ar[dashed]{rr}{\sigma}\ar{rd}[swap]{{(b,a)}} \&\& R\ar{ld}{{(a,b)}}\\
+        \& A\times A
+      \end{tikzcd}
+    \]
+    \task Si consideramos el producto fibrado de abajo a la izquierda, entonces existe una flecha \(\tau\colon T\to R\) tal que el diagrama de abajo a la izquierda conmuta
+    \[
+      \begin{tikzcd}[ampersand replacement=\&]
+        T\ar{r}{q}\ar{d}[swap]{p} \& R\ar{d}{a}\\
+        R\ar{r}[swap]{b} \& A
+      \end{tikzcd}
+      \qquad
+      \begin{tikzcd}[ampersand replacement=\&]
+        T\ar[dashed]{rr}{\tau}\ar{rd}[swap]{{(ap,bq)}} \&\& R\ar{ld}{{(a,b)}}\\
+        \& A\times A\mathrlap{.}
+      \end{tikzcd}
+    \]
+  \end{tasks}
 \end{exercise}
 \end{document}

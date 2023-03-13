@@ -1,39 +1,39 @@
 \providecommand\numberofexercises{}
 \XSIM{solution-body}{}
-\XSIM{exercise-body}{exercise-1=={Sea \(C\in \toposE \). Muestra que \(C^C\) es un objeto monoide en \(\toposE \). Esto es, existen flechas \(e\colon 1\to C^C\) y \(m\colon C^C\times C^C\to C^C\) tales que los siguientes diagramas conmutan \[ \begin {tikzcd}[ampersand replacement=\&] C^C\times C^C\times C^C\ar {r}{\id \times m}\ar {d}[swap]{m\times \id } \& C^C\times C^C\ar {d}{m}\\ C^C\times C^C\ar {r}[swap]{m} \& C^C \end {tikzcd} \quad \begin {tikzcd}[ampersand replacement=\&] 1\times C^C\ar {r}{e\times \id }\ar {rd}[swap]{p_{C^C}} \& C^C\times C^C\ar {d}{m} \& C^C\times 1\ar {l}[swap]{\id \times e}\ar {ld}{p_{C^C}}\\ \& C^C \end {tikzcd} \]}||exercise-2=={Demuestra que la biyección \(\toposE (A,\Omega )\cong \sub _{\toposE }(A)\) es natural en \(A\).}||exercise-3=={Muestra que \(\con \op \) es equivalente a la categoría de álgebras de Boole completas y atómicas, \(\boo \).}}
+\XSIM{exercise-body}{exercise-1=={Sea \(C\in \toposE \). Muestra que \(C^C\) es un objeto monoide en \(\toposE \). Esto es, existen flechas \(e\colon 1\to C^C\) y \(m\colon C^C\times C^C\to C^C\) tales que los siguientes diagramas conmutan \[ \begin {tikzcd}[ampersand replacement=\&] C^C\times C^C\times C^C\ar {r}{\id \times m}\ar {d}[swap]{m\times \id } \& C^C\times C^C\ar {d}{m}\\ C^C\times C^C\ar {r}[swap]{m} \& C^C \end {tikzcd} \quad \begin {tikzcd}[ampersand replacement=\&] 1\times C^C\ar {r}{e\times \id }\ar {rd}[swap]{p_{C^C}} \& C^C\times C^C\ar {d}{m} \& C^C\times 1\ar {l}[swap]{\id \times e}\ar {ld}{p_{C^C}}\\ \& C^C \end {tikzcd} \]}||exercise-2=={Demuestra que la biyección \(\toposE (A,\Omega )\cong \sub _{\toposE }(A)\) es natural en \(A\).}||exercise-3=={Si \(f\colon \Omega \to \Omega \) es un mono, entonces \(ff=\id _{\Omega }\).}||exercise-4=={El par núcleo de una flecha \(f\colon A\to B\) consta de dos flechas \(a,b\colon R\to A\) tales que el diagrama \[ \begin {tikzcd}[ampersand replacement=\&] R\ar {r}{a}\ar {d}[swap]{b} \& A\ar {d}{f}\\ A\ar {r}[swap]{f} \& B \end {tikzcd} \] es un producto fibrado. Demuestra que el par núcleo cumple lo siguiente: \begin {tasks} \task la flecha \((a,b)\colon R\to A\times A\) es mono, \task la diagonal \(\Delta _A\colon A\to A\times A\) está contenida en \((a,b)\), es decir, existe \(\rho \colon A\to R\) tal que el siguiente diagrama conmuta \[ \begin {tikzcd}[ampersand replacement=\&] A\ar [dashed]{rr}{\rho }\ar {rd}[swap]{\Delta _A} \&\& R\ar {ld}{{(a,b)}}\\ \& A\times A \end {tikzcd} \] \task \((b,a)\) está contenida en \((a,b)\), es decir, existe una flecha \(\sigma \colon R\to R\) que hace conmutar al diagrama \[ \begin {tikzcd}[ampersand replacement=\&] R\ar [dashed]{rr}{\sigma }\ar {rd}[swap]{{(b,a)}} \&\& R\ar {ld}{{(a,b)}}\\ \& A\times A \end {tikzcd} \] \task Si consideramos el producto fibrado de abajo a la izquierda, entonces existe una flecha \(\tau \colon T\to R\) tal que el diagrama de abajo a la izquierda conmuta \[ \begin {tikzcd}[ampersand replacement=\&] T\ar {r}{q}\ar {d}[swap]{p} \& R\ar {d}{a}\\ R\ar {r}[swap]{b} \& A \end {tikzcd} \qquad \begin {tikzcd}[ampersand replacement=\&] T\ar [dashed]{rr}{\tau }\ar {rd}[swap]{{(ap,bq)}} \&\& R\ar {ld}{{(a,b)}}\\ \& A\times A\mathrlap {.} \end {tikzcd} \] \end {tasks}}}
 \XSIM{goal}{exercise}{points}{0}
 \XSIM{totalgoal}{points}{0}
 \XSIM{goal}{exercise}{bonus-points}{0}
 \XSIM{totalgoal}{bonus-points}{0}
-\XSIM{order}{1||2||3}
+\XSIM{order}{1||2||3||4}
 \XSIM{use}{}
 \XSIM{use!}{}
-\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
 \XSIM{print}{}
 \XSIM{print!}{}
-\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
-\XSIM{total-number}{3}
-\XSIM{exercise}{3}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
+\XSIM{total-number}{4}
+\XSIM{exercise}{4}
 \XSIM{types}{exercise}
-\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}}
-\XSIM{collections}{exercise-1=={all exercises}||exercise-2=={all exercises}||exercise-3=={all exercises}}
-\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3}
-\setcounter{totalexerciseinall exercises}{3}
-\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises}||exercise-2=={all exercises}||exercise-3=={all exercises}||exercise-4=={all exercises}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4}
+\setcounter{totalexerciseinall exercises}{4}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
 \XSIM{solution}{}
-\XSIM{chapter-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
-\XSIM{chapter}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
-\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
-\XSIM{section}{exercise-1=={0.0}||exercise-2=={0.0}||exercise-3=={0.0}}
-\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}}
+\XSIM{chapter-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
+\XSIM{chapter}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
+\XSIM{section}{exercise-1=={0.0}||exercise-2=={0.0}||exercise-3=={0.0}||exercise-4=={0.0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}||exercise-4=={{0}{0}{0}{0}{0}}}
 \XSIM{subtitle}{}
 \XSIM{points}{}
 \XSIM{bonus-points}{}
-\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
-\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}}
 \XSIM{tags}{}
 \XSIM{topics}{}
 \XSIM{userpoints}{}
