@@ -162,7 +162,7 @@ su imagen $$im(f)\subseteq B$$. Con esta imagen podemos pensar que $$f$$ es una 
 se vuelve suprayectiva. Así, la función original se escribir como una función suprayectiva seguida de una inclusión
 
 $$
-A\xrightarrow{f}im(f)\rightarrowhook B
+A\xrightarrow{f}im(f)\hookrightarrow B
 $$
 
 En esta sección veremos que esta factorización también es posible en un topos y lo haremos formalizando el concepto de 
