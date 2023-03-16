@@ -126,14 +126,50 @@ $$
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8Eb5fscm_m4" title="Clase23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
-Como $$\mathcal{E}$$ tiene todos los límites finitos, entonces $$\mathcal{E}^{op}$$ tiene coigualadores de pares reflexivos. Así, sólo falta mostrar que $$P$$ refleja isomorfismos. La demostración consta de varios pasos. Primero se muestra que el funtor $$P$$ es fiel. Luego se demuestra que cualquier funtor fiel preserva monomorfismos y epimorfismos. También hay que notar que en un topos una flecha que es monomorfismo y epimorfismo es un isomorfismo. Finalmente, se "pegan" estos resultados para obtener lo que queremos.
-
-Una vez que ya sabemos que $$P\colon\mathcal{E}^{op}\to\mathcal{E}$$ es monádico, obtenemos una equivalencia
-$$(L,K,\alpha,\beta)\colon\mathcal{E}^T\to\mathcal{E}^{op}$$. Esta equivalencia nos da un camino para mostrar la existencia de colímites en el topos $$\mathcal{E}$$.
+Como $$\mathcal{E}$$ tiene todos los límites finitos, entonces $$\mathcal{E}^{op}$$ tiene coigualadores de pares 
+reflexivos. Así, sólo falta mostrar que $$P$$ refleja isomorfismos. La demostración consta de varios pasos. Primero se 
+muestra que el funtor $$P$$ es fiel. Luego se demuestra que cualquier funtor fiel preserva monomorfismos y epimorfismos. 
+También hay que notar que en un topos una flecha que es monomorfismo y epimorfismo es un isomorfismo. Finalmente, se 
+"pegan" estos resultados para obtener lo que queremos.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iNhF7BoXkSA" title="Clase24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
+Una vez que ya sabemos que $$P\colon\mathcal{E}^{op}\to\mathcal{E}$$ es monádico, obtenemos una equivalencia
+$$(L,K,\alpha,\beta)\colon\mathcal{E}^T\to\mathcal{E}^{op}$$. Esta equivalencia nos da un camino para mostrar la 
+existencia de colímites en el topos $$\mathcal{E}$$. Para poder seguir dicho camino, se demuestra que el funtor que olvida 
+$$G^T\colon\mathcal{E}^{T}\to\mathcal{E}$$ crea límites y que si $$L\dashv K$$ es una equivalencia, entonces $$L$$ 
+preserva límites.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agQcOPsgyQ0" title="Clase25" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Ahora ya podemos demostrar que un topos tiene colímites finitos. Si tomamos un diagrama 
+$$\Gamma\colon\mathbf{I}\to\mathcal{E}$$ con $$\mathbf{I}$$ finita, entonces demostrar que $$\Gamma$$ tiene colímite (en 
+$$\mathcal{E}$$) es lo mismo que demostrar que $$\Gamma^{op}$$ tiene límite (en $$\mathcal{E}^{op}$$). Este límite se 
+obtiene del diagrama $$K\Gamma^{op}\colon\mathbf{I}^{op}\to\mathcal{E}^{T}$$ y el hecho de que $$G^T$$ crea límites.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JcyAzHyJXig" title="Clase26" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 
+## Factorización e imagen
+En la categoría de conjuntos es claro que si tomamos una función $$f\colon A\to B$$ arbitraria entonces podemos considerar 
+su imagen $$im(f)\subseteq B$$. Con esta imagen podemos pensar que $$f$$ es una función de $$A$$ en $$im(f)$$, donde $$f$$ 
+se vuelve suprayectiva. Así, la función original se escribir como una función suprayectiva seguida de una inclusión
+
+$$
+A\xrightarrow{f}im(f)\rightarrowhook B
+$$
+
+En esta sección veremos que esta factorización también es posible en un topos y lo haremos formalizando el concepto de 
+imagen. Además, la factorización que haremos será funtorial.
+
+En este momento el concepto de imagen nos será de utilidad para lograr que las colecciones de subobjetos $$Sub(B)$$ no sólo sean órdenes parciales, sino retículas. El ínfimo se obtiene con el producto fibrado de subobjetos y el supremo requiere de la imagen para sea un subobjeto de $$B$$.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L9Q6nU1eG30" title="Clase27" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
