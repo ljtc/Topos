@@ -350,8 +350,8 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-bas
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT ./tarea2.xsim
 OUTPUT tarea2.pdf
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./tarea2.xsim
 INPUT ./tarea2.aux
 INPUT ./tarea2.xsim
