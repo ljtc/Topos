@@ -229,11 +229,7 @@ $$\mathcal{E}(A\times C,\Omega)\cong\mathcal{E}(C,PA)$$
 
 natural en $$A$$ y $$C$$. Así, para cada $$f\colon C\to B$$ en $$\mathcal{E}/B$$ encontraremos un objeto, que denotaremos $$P_B f$$ tal que para cualquier $$g\colon D\to B$$ haya una biyección
 
-$$
-\begin{equation}
-\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)
-\end{equation}
-$$
+$$\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)$$
 
 natural en $$C$$ y $$D$$.
 
@@ -243,3 +239,29 @@ $$C\times_B D\to\Omega\times B$$ en $$\mathcal{E}/B$$ está en correspondencia c
 $$\mathcal{E}$$ y esta con un subobjeto de $$C\times_B D$$, que a su vez es lo mismo que un subobjeto de $$C\times D$$ 
 contenido en $$C\times_B D$$.
 
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TX2auzwmxC4" title="Clase32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Para mostrar la naturalidad de la última biyección de arriba necesitamos dar una flecha $$C\times_B D\to C\times_B D'$$, 
+luego tomar un subobjeto $$S'\tailrightarrow C\times_B D'$$ y pasarlo por el diagrama correspondiente para qver que 
+conmuta.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7UT_pz8Tqaw" title="Clase33" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Continuando con las biyecciones naturales, notamos que un subobjeto $$S$$ de $$C\times D$$ contenido en $$C\times_B D$$ tiene una flecha característica $$\varphi_S\colon C\times D\to \Omega$$ que satisface 
+$$\varphi_S \land\in_C(id\times w)=\varphi_S$$. Luego, usamos que $$\mathcal{E}$$ tiene objeos potencia y tomamos la $$P$$-transpuesta de la característica, $$\hat{\varphi}_S\colon D\to PC$$. Esto nos dará las siguientes dos biyecciones naturales en $$C$$ y $$D$$.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y27Jp9q59bY" title="Clase34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Finalmente la condición para que una flecha $$\hat{\varphi}_S$$ esté en el ultimo conjunto de arriba se puede reescribir para dar dos flechas $$p_1,t\colon PC\times B\to PC$$ de tal forma que $$(\hat{\varphi}_S,g)$$ iguala al par anterior. Así, el objeto potencia en $$\mathcal{E}/B$$ es el igualador del para de flechas anterior $$P_Bf\to PC\times B$$ segido de la proyección $$p_2\colon PC\times B\to B$$.
+
+De esta forma podemos seguir las biyecciones naturales y concluir que hay una biyección natural en $$C$$ y $$D$$
+
+$$\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)$$
+
+Por lo tanto, hemos terminado la demotración de que $$\mathcal{E}/B$$ es un topos.
