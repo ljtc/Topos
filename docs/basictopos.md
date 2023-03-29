@@ -229,6 +229,40 @@ $$\mathcal{E}(A\times C,\Omega)\cong\mathcal{E}(C,PA)$$
 
 natural en $$A$$ y $$C$$. Así, para cada $$f\colon C\to B$$ en $$\mathcal{E}/B$$ encontraremos un objeto, que denotaremos $$P_B f$$ tal que para cualquier $$g\colon D\to B$$ haya una biyección
 
-$$\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)$$
+$$
+\begin{gather}
+\label{pot}
+\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)
+\end{gather}
+$$
 
 natural en $$C$$ y $$D$$.
+
+Empezamos analizando el lado izquierdo de la biyección que queremos, para esto primero daremos una forma conveniente de la 
+característica de $$C\times_B D$$ como subobjeto de $$C\times D$$. Además, notamos que una flecha 
+$$C\times_B D\to\Omega\times B$$ en $$\mathcal{E}/B$$ está en correspondencia con una flecha $$C\times_B D\to\Omega&& en 
+$$\mathcal{E}$$ y esta con un subobjeto de $$C\times_B D$$, que a su vez es lo mismo que un subobjeto de $$C\times D$$ 
+contenido en $$C\times_B D$$.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TX2auzwmxC4" title="Clase32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Para la naturalidad de la última biyección hay que inducir una flecha $$h\colon C\times_B D\to C\times_B D'$ y luego seguir a un subobjeto $$S'\tailrightarrow C\times_B D'$$ por el diagrama que queremos que conmute
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7UT_pz8Tqaw" title="Clase33" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Ahora del último conjunto podemos seguir haciendo biyecciones naturales en $$C$$ y $$D$$, si recordamos que los subobjetos tienen asociada una única flecha característica y que tenemos al conectivo $$\land\colon\Omega\to\Omega$$. Una biyección más usa que, en $$\mathcal{E}$$ hay exponenciales y son adjunto derecho del producto. Así, que ahora tendremos los nombres en la exponencial de las flechas características del conjunto anterior.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y27Jp9q59bY" title="Clase34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Finalmente, reescribimos la condición que define al último conjunto del paso anterior para obtener un par de flechas 
+$$p_1,t\colon PC\times B\to PC$$. Entonces, el objeto potencia en $$\mathcal{E}/B$$ es el igualador del par de flechas anterior $$P_Bf\to PC\times B$$ compuesto con la proyección hacia $$B$$, $$p_2\colon PC\times B\to B$$. Para terminar la demostración veremos que este igualador induce una biyección natural en $$C$$ y $$D$$ con la que podremos concluir que hay una biyección como en (1) natural en $$C$$ y $$D$$. Por lo tanto $$\mathcal{E}/B$$ es un topos.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_AqoSEKnSk" title="Clase35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
