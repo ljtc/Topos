@@ -265,3 +265,7 @@ De esta forma podemos seguir las biyecciones naturales y concluir que hay una bi
 $$\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)$$
 
 Por lo tanto, hemos terminado la demotración de que $$\mathcal{E}/B$$ es un topos.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_AqoSEKnSk" title="Clase35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
