@@ -230,10 +230,9 @@ $$\mathcal{E}(A\times C,\Omega)\cong\mathcal{E}(C,PA)$$
 natural en $$A$$ y $$C$$. Así, para cada $$f\colon C\to B$$ en $$\mathcal{E}/B$$ encontraremos un objeto, que denotaremos $$P_B f$$ tal que para cualquier $$g\colon D\to B$$ haya una biyección
 
 $$
-\begin{gather}
-\label{pot}
+\begin{equation}
 \mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)
-\end{gather}
+\end{equation}
 $$
 
 natural en $$C$$ y $$D$$.
