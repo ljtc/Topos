@@ -8,7 +8,6 @@ sitemap: false
 permalink: /docs/
 ---
 
-
 En esta sección estarán los vídeos de clases y alguna nota o aclaración de los temas vistos en clases.
 
 
