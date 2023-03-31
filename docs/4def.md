@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Definición de Topos Elemental
+title: Definición de topos
 description: >
   Definición del concepto de topos
 hide_description: true
@@ -50,6 +50,38 @@ $$\varphi_m\,x=v_X \iff \in_A(x,\hat{\varphi_m})=v_X$$.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fttIatTFWFE" title="Clase17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+## Algunos predicados
+Más adelante veremos que el clasificador de subobjetos creará una lógica interna para el topos. Hará eso de tal forma que 
+una flecha $$A\to\Omega$$ será una fórmula con una variable libre de tipo $$A$$. Usaremos esta intuición y llamaremos 
+predicados a las flechas que construiremos en esta sección.
+
+Con la propiedad universal del producto es posible construir la flecha *diagonal* $$\Delta_A\colon A\to A\times A$$. Esta 
+es la flecha con la propiedad de que al componerla con cualquiera de las dos proyecciones se obtiene la identidad. Es 
+fácil ver que la diagonal es un mono y así tiene una flecha característica $$\delta_A\colon A\times A\to Omega$$. Este predicado, o fórmula con dos variables libres de tipo $$A$$, satisface que si tomamos elementos generalizados 
+$$x,y\colon X\to A$$ entonces
+
+$$
+\delta_A(x,y)=v_X \iff x=y
+$$
+
+Así, $$\delta_A$$ es el predicado de igualdad en $$A$$ o la delta de Kronecker.
+
+Ahora, tomamos la $$P$$-transpuesta de $$\delta_A$$ y obtenemos la flecha *unitario* $$\{\cdot\}\colon A\to PA$$. La flecha unitario satisface, para cualesquiera $$x,y\colon X\to A$$,
+
+$$
+\in_A(x,\{y\})=v_X \iff x=y
+$$
+
+La equivalencia anterior muestra que nuestra flecha unitario de verdad se comporta como un conjunto unitario. Además, como es de esperar, también es mono; por lo que tiene una flecha característica $$\sigma_A\colon PA\to\Omega$$. Si $$x\colon X\to PA$$, entonces $$\sigma_A$$ satisface
+
+$$
+\sigma_A(x)=v_X \iff \exists X\xrightarrow{y}A(x=\{y\})
+$$
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h7j0MYBp6Fg" title="Clase17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 
