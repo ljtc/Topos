@@ -80,7 +80,7 @@ $$\mathcal{E}/B(C\times_B D,\Omega\times B)\cong\mathcal{E}/B(D,P_B f)$$
 como queríamos.
 
 <p>
-<iframe width="966" height="543" src="https://www.youtube.com/embed/1_AqoSEKnSk" title="Clase 35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_AqoSEKnSk" title="Clase 35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 ---
@@ -94,13 +94,13 @@ $$k^*\colon\mathcal{E}/A\to\mathcal{E}/B$$ tiene adjuntos derecho e izquierdo.
 La demostración del teorema se hace en dos pasos, primero se analiza la situación $$A=1$$, de tal forma que $$k$$ es la única flecha al terminal.
 
 <p>
-<iframe width="1440" height="679" src="https://www.youtube.com/embed/Bionrwt582s" title="Clase 36" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bionrwt582s" title="Clase 36" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 El siguiente paso es tomar $$k\colon B\to A$$ arbitraria y notar que $$\mathcal{E}/B\cong(\mathcal{E}/A)/k$$. Así, podemos aplicar el caso anterior para obtener el resultado del teorema.
 
 <p>
-<iframe width="1440" height="679" src="https://www.youtube.com/embed/L14PgRmUCP4" title="Clase 37" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L14PgRmUCP4" title="Clase 37" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 Se puede demostrar aún más del funtor cambio de base. Este funtor es un *morfismo lógico*, es decir, preserva límites finitos, clasificador de subobjetos y exponenciales (todo salvo iso). 
@@ -113,5 +113,5 @@ La preservación de límites se sigue de que tiene adjunto izquierdo y es fácil
 Usando los dos teoremas anteriores es posible demostrar algunas cosas similares a lo que pasa en la categoría de conjuntos.
 
 <p>
-<iframe width="1440" height="679" src="https://www.youtube.com/embed/A_BK-QHPB8w" title="Clase 38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A_BK-QHPB8w" title="Clase 38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
