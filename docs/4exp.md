@@ -7,10 +7,9 @@ hide_description: true
 sitemap: false
 ---
 
-## Construcción de exponenciales
 En la definición de topos (elemental) ne se pidió que fuera una categoría cartesiana cerrada, ni siquiera que existan 
 objetos exponencial. En el tercer axioma se pide la existencia de objetos potencia. Estos objetos son, como en conjuntos, 
-lo mismo que exponenciar con base el clasificador de subobjetos. çse puede demostrar que esto es todo lo que se necesita 
+lo mismo que exponenciar con base el clasificador de subobjetos. Se puede demostrar que esto es todo lo que se necesita 
 para obtener una categoría cartesiana cerrada (por supuesto, no sólo se usará el tercer axioma en la demostración).
 
 Podemos pensar que la construcción está hecha en dos partes. En la primera necesitamos construir un objeto $$C^B$$ para 
