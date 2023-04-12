@@ -110,8 +110,17 @@ $$k^*\colon\mathcal{E}/A\to\mathcal{E}/B$$ es un morfismo lógico.
 
 La preservación de límites se sigue de que tiene adjunto izquierdo y es fácil ver que preserva al clasificador de subobjetos. Así, la parte interesante de la demostración es que preserva exponenciales.
 
-Usando los dos teoremas anteriores es posible demostrar algunas cosas similares a lo que pasa en la categoría de conjuntos.
+Usando los dos teoremas anteriores es posible demostrar algunas cosas similares a lo que pasa en la categoría de 
+conjuntos. Por ejemplo que una flecha $$A\to 0$$ es necesariamente un isomorfismo y que la única flecha $$0\to A$$ es mono.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A_BK-QHPB8w" title="Clase 38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+
+Algunas otras propiedades que podemos demostrar usando los dos teoremas principales de esta sección son: que si tomamos subobjetos ajenos de un objeto $$B$$, entonces su coproducto es su supremo; que el producto finito de epis es epi.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Og_EpI-zC54" title="Clase39" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Finalmente, demostramos que todo epi es un coigualador (algo que podemos pensar como "dual" al hecho que todo mono es un igualador).

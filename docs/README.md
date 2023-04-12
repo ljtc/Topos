@@ -48,14 +48,14 @@ A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry 
 [Límites]: limites.md
 [Teorema de Beck]: beck.md
 
-[Definición de topos]: 4def.md
-[Construcciones de exponenciales]: 4exp.md
-[Imagen directa]: 4im.md
-[Construcción de colímites]: 4col.md
-[Factorización e imagen]: 4fact.md
-[La categoría rebanada como un topos]: 4fund.md
-[Objetos retícula y álgebra de Heyting en un topos]: 4hey.md
-[La condición de Beck-Chevalley]: 4bc.md
-[Objetos inyectivos]: 4iny.md
+[Definición de topos]: 4-1def.md
+[Construcciones de exponenciales]: 4-2exp.md
+[Imagen directa]: 4-3im.md
+[Construcción de colímites]: 4-5col.md
+[Factorización e imagen]: 4-6fact.md
+[La categoría rebanada como un topos]: 4-7fund.md
+[Objetos retícula y álgebra de Heyting en un topos]: 4-8hey.md
+[La condición de Beck-Chevalley]: 4-9bc.md
+[Objetos inyectivos]: 4-10iny.md
 
-[Topologías de Lawvere-Tierney]: 5lt.md
+[Topologías de Lawvere-Tierney]: 5-1lt.md
