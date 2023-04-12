@@ -41,7 +41,7 @@ contradicción es el mínimo (inicial). Con esto tenemos que nuestro orden parci
 escribimos la relación que define a la implicación desde el punto de vista sintáctico obtenemos
 
 $$
-a\land b\vdash c \iff b\vdash(a\Righarrow c)
+a\land b\vdash c \iff b\vdash(a\Rightarrow c)
 $$
 
 Esta relación, en lógica de proposiciones, se conoce como el teorema de la deducción. Así, el teorema de la deducción afirma que $$(Form/\equiv,\leq)$$ es cartesiana cerrada. Así, es un álgebra de Heyting.
