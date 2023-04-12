@@ -44,7 +44,9 @@ $$
 a\land b\vdash c \iff b\vdash(a\Rightarrow c)
 $$
 
-Esta relación, en lógica de proposiciones, se conoce como el teorema de la deducción. Así, el teorema de la deducción afirma que $$(Form/\equiv,\leq)$$ es cartesiana cerrada. Así, es un álgebra de Heyting.
+Esta relación, en lógica de proposiciones, se conoce como el teorema de la deducción. Así, el teorema de la deducción 
+afirma que $$(Form/\equiv,\leq)$$ es cartesiana cerrada. En otras palabras, $$(Form/\equiv,\leq)$$ es un álgebra de 
+Heyting.
 
 La unidad y la counidad de la adjunción también se interpretan como relaciones conocidas en lógica de proposiciones. La unidad es una forma de expresar al primer axioma del cálculo de proposiciones de Mendelson y la counidad es el *modus ponens*.
 
