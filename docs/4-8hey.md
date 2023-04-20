@@ -102,3 +102,5 @@ y el lema de Yoneda-Grothendieck para inducir la estructura de álgebra de Heyti
 La estructura sobre $$\Omega$$ es de especial importancia en un topos ya que una flecha $$A\to\Omega$$ se puede 
 interpretar como una fórmula con una variable libre de tipo $$A$$. Debido a esta interpretación estas flechas se denotan 
 con $$\varphi$$, $$\psi$$, etc. 
+
+Ver el primer vídeo en [La condición de Beck-Chevalley](./4-9bc.md).
