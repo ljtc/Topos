@@ -31,7 +31,7 @@ Después de este repaso empezaremos con los temas del curso. Primero presentarem
 4. Construcción de colímites
 5. Factorización e imagen
 6. La rebanada como un topos
-7. Objetos latiz y álgebra de Heyting en un topos
+7. Objetos retícula y álgebra de Heyting en un topos
 8. La condición de Beck-Chevalley
 9. Objetos inyectivos
 

@@ -86,7 +86,8 @@ demostrar $$k^{-1}\colon Sub(A)\to Sub(B)$$ usaremos al funtor cambio de base $$
 y lo que ya sabemos de él, tiene adjunto izquierdo y derecho, además es un morfismo lógico.
 
 El siguiente paso en este camino es demostrar que $$PA$$ es un álgebra de Heyting interna, para todo $$A\in\mathcal{E}$$.
-En particular tendremos que $$\Omega=P1$$ tiene estructura de álgebra de Heyting. Para esto consideramos el isomorfismo natural
+En particular tendremos que $$\Omega=P1$$ tiene estructura de álgebra de Heyting. Para esto consideramos el isomorfismo 
+natural
 
 $$
 Sub(A\times X)\cong\mathcal{E}(X,PA)
@@ -98,4 +99,6 @@ y el lema de Yoneda-Grothendieck para inducir la estructura de álgebra de Heyti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jsH_sfh9Hng" title="Clase43" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
-La estructura sobre $$\Omega$$ es de especial importancia en un topos ya que una flecha $$A\to\Omega$$ se puede interpretar como una fórmula con una variable libre de tipo $$A$$. Debido a esta interpretación estas flechas de denotan con $$\varphi$$, $$\psi$$, etc. 
+La estructura sobre $$\Omega$$ es de especial importancia en un topos ya que una flecha $$A\to\Omega$$ se puede 
+interpretar como una fórmula con una variable libre de tipo $$A$$. Debido a esta interpretación estas flechas se denotan 
+con $$\varphi$$, $$\psi$$, etc. 
