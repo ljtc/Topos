@@ -25,7 +25,7 @@ En un intento de organizar este material se irá subiendo por temas
 * [Límites]{:.heading.flip-title}
 
 
-A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry and Logic*. Así, que tomamos el índice del capítulo para organizar el metriar de esta sección.
+A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry and Logic*. Así, que tomamos el índice del capítulo para organizar el material de esta sección.
 ### Primeras propiedades de topos elementales
 1. [Definición de topos]{:.heading.flip-title}
 2. [Construcciones de exponenciales]{:.heading.flip-title}
@@ -39,6 +39,7 @@ A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry 
 
 ### Construcciones básicas en topos
 1. [Topologías de Lawvere-Tierney]{:.heading.flip-title}
+2. [Gavillas]{:.heading.flip-title}
 
 
 [Grupo-libre]: grupolibre.md
@@ -59,3 +60,4 @@ A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry 
 [Objetos inyectivos]: 4-10iny.md
 
 [Topologías de Lawvere-Tierney]: 5-1lt.md
+[Gavillas]: 5-2gav.md 
