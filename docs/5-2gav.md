@@ -29,8 +29,8 @@ En realidad el morfismo de arriba se puede definir con cualquier flecha $$j\colo
 $$j$$ es una topología de Lawvere-Tierney, entonces podremos demostrar
 
 $$
-A\subseteq\overline{A}\quad
-\overline{\overline{A}}=\overline{A}\quad
+A\subseteq\overline{A}\qquad
+\overline{\overline{A}}=\overline{A}\qquad
 \overline{A\cap B}=\overline{A}\cap\overline{B}
 $$
 
@@ -72,4 +72,24 @@ Las dos subcategorías $$Gav_j(\mathcal{E})$$ y $$Sep_j(\mathcal{E})$$ tienen bu
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R13KOym5010" title="Clase52" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Para demostrar que son cerrados bajo exponenciales primero se demuestra que si $$m\colon A\to E$$ es un mono denso, 
+entonces $$id\times m\colon B\times A\to B\times E$$ también es un mono denso.
+
+Luego, el objetivo de esta sección es mostrar que $$Gav_j\mathcal{E}$$ es un topos. Por lo anterior sólo falta demostrar 
+que tiene clasificador de subobjetos. Consideramos $$\Omega_j$$, el igualador de $$j,id\colon\Omega\to\Omega$$. Con las 
+propiedades de una topología de Lawvere-Tierney es posible mostrar que $$\Omega_j$$ es la imagen de 
+$$j\colon\Omega\to\Omega$$. Además también tiene un punto una flecha $$v_j\colon 1\to\Omega_j$$.
+
+Veamos que $$v_j\colon 1\to\Omega_j$$ es el clasificador de subobjetos en $$Gav_j\mathcal{E}$$. Empezamos haciendo algunas observaciones sobre objetos cerrados y sus características. Luego hay que ver a qué clasifica $$\Omega_j$$
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1o9oCe4p5Vg" title="Clase53" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
+Luego demostramos que $$\Omega_j\in Gav_j\mathcal{E}$$ y finalmente mostramos que dada una gavilla $$F$$ y un subobjeto $$A\in Sub(F)$$ se cumple que $$A$$ es gavilla si y sólo si $$A$$ es cerrado. Completando así la demostración de que $$\Omega_j$$ es el clasificador de subobjetos en $$Gav_j\mathcal{E}$$. Ahora que ya sabemos que las gavillas son un topos adoptamos una notación más cercana a la que tenemos para topos, $$\mathcal{E}_j=Gav_j\mathcal{E}$$.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m7AvGMk7OlA" title="Clase54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>

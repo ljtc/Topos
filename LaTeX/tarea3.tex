@@ -1,0 +1,50 @@
+\documentclass[article]{memoir}
+\usepackage{defs}
+\usepackage{xsim}
+\usepackage{tasks}
+
+\setlrmarginsandblock{3cm}{*}{1}
+\setulmarginsandblock{3cm}{*}{*}
+\checkandfixthelayout
+
+\title{Tarea 3}
+\author{Seminario de Álgebra B}
+\date{}
+
+\SetExerciseParameters{exercise}{
+  exercise-name = Ejercicio,
+  solution-name = Solución,
+  exercise-heading = \paragraph,
+  solution-heading = \paragraph
+}
+\xsimsetup{solution/print=true}
+
+\setlength{\droptitle}{-2.5cm}
+
+\setmainfont{Stix Two Text}
+\setmathfont{Stix Two Math}
+\setmathfont{XITS Math}[range={scr,bfscr}]
+\DeclareMathOperator{\sub}{Sub}
+
+\begin{document}
+\maketitle
+
+\begin{exercise}
+  Sean \(\toposE\) uun topos, \(E,F\in\toposE\) y \(f\colon E\to F\) en \(\toposE\).
+  \begin{tasks}
+    \task Demuestra que el operador cerradura \(\overline{(-)}\colon\sub(E)\to\sub(E)\) es natural en \(E\), es decir, que \(f^{-1}(\overline{B})=\overline{f^{-1}(B)}\).
+    \task Si \(A,B\in\sub{E}\) son tales que \(A\subseteq_E B\), entonces \(\overline{A}\subseteq_E \overline{B}\). 
+  \end{tasks}
+\end{exercise}
+
+\begin{exercise}
+  Sean \(A,B\in\sub(E)\). Muestra que el siguiente diagrama
+  \[
+    \begin{tikzcd}[arrows=tail, ampersand replacement=\&]
+      A\cap B\ar{r}\ar{d} \& B\ar{d}\\
+      A\ar{r} \& A\cup B
+    \end{tikzcd}
+  \]
+  es un producto y coproducto fibrado.
+\end{exercise}
+\end{document}

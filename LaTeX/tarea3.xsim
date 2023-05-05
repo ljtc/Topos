@@ -1,0 +1,42 @@
+\providecommand\numberofexercises{}
+\XSIM{solution-body}{}
+\XSIM{exercise-body}{exercise-1=={Sean \(\toposE \) uun topos, \(E,F\in \toposE \) y \(f\colon E\to F\) en \(\toposE \). \begin {tasks} \task Demuestra que el operador cerradura \(\overline {(-)}\colon \sub (E)\to \sub (E)\) es natural en \(E\), es decir, que \(f^{-1}(\overline {B})=\overline {f^{-1}(B)}\). \task Si \(A,B\in \sub {E}\) son tales que \(A\subseteq _E B\), entonces \(\overline {A}\subseteq _E \overline {B}\). \end {tasks}}||exercise-2=={Sean \(A,B\in \sub (E)\). Muestra que el siguiente diagrama \[ \begin {tikzcd}[arrows=tail, ampersand replacement=\&] A\cap B\ar {r}\ar {d} \& B\ar {d}\\ A\ar {r} \& A\cup B \end {tikzcd} \] es un producto y coproducto fibrado.}}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
+\XSIM{goal}{exercise}{bonus-points}{0}
+\XSIM{totalgoal}{bonus-points}{0}
+\XSIM{order}{1||2}
+\XSIM{use}{}
+\XSIM{use!}{}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}}
+\XSIM{print}{}
+\XSIM{print!}{}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}}
+\XSIM{total-number}{2}
+\XSIM{exercise}{2}
+\XSIM{types}{exercise}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises}||exercise-2=={all exercises}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2}
+\setcounter{totalexerciseinall exercises}{2}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}}
+\XSIM{solution}{}
+\XSIM{chapter-value}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{chapter}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}}
+\XSIM{section}{exercise-1=={0.0}||exercise-2=={0.0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}}
+\XSIM{subtitle}{}
+\XSIM{points}{}
+\XSIM{bonus-points}{}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}}
+\XSIM{tags}{}
+\XSIM{topics}{}
+\XSIM{userpoints}{}
+\XSIM{bodypoints}{}
+\XSIM{userbonus-points}{}
+\XSIM{bodybonus-points}{}
