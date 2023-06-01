@@ -42,6 +42,11 @@ A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry 
 2. [Gavillas]{:.heading.flip-title}
 3. [Funtor gavilla asociada]{:.heading.flip-title}
 
+### Topos y lógica
+1. [El topos de conjuntos]{:.heading.flip-title}
+2. [El lenguaje de Mitchell y Bénabou]{:.heading.flip-title}
+3. [Semántica de Kripke y Joyal]{:.heading.flip-title}
+
 
 [Grupo-libre]: grupolibre.md
 [Adjunciones]: adjunciones.md
@@ -63,3 +68,7 @@ A partir de este punto seguiremos a Mac Lane y Moerdijk en *Sheaves in Geometry 
 [Topologías de Lawvere-Tierney]: 5-1lt.md
 [Gavillas]: 5-2gav.md 
 [Funtor gavilla asociada]: 5-3gavas.md
+
+[El topos de conjuntos]: 6-1conj.md
+[El lenguaje de Mitchell y Bénabou]: 6-5mb.md
+[Semántica de Kripke y Joyal]: 6-6kj.md
